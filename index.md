@@ -3,7 +3,7 @@
 
 # The Oliynyk Lab
 
-An engaging 1-3 sentence description of your lab.
+In our lab, we explore intermetallics—compounds where metals and metalloids intersect. Our mission? To discover novel compounds, unravel their crystal structures, and see just how far these materials can go. By combining cutting-edge synthesis, characterization, and machine learning, we're pushing the boundaries of materials science, one intermetallic at a time.
 
 {% include section.html %}
 
@@ -26,7 +26,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/arcmelter.jpeg"
   link="research"
   title="Our Research"
   text=text
@@ -49,7 +49,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/ourprojects.png"
   link="projects"
   title="Our Projects"
   flip=true
