@@ -1,6 +1,6 @@
 ---
 name: Emil Jaffal
-image: images/photo.jpg
+image: images/EJ_headshot.jpeg
 role: phd
 description: PhD Student
 links:
