@@ -660,6 +660,23 @@
   orcid: 0000-0003-0732-7340
   plugin: orcid.py
   file: orcid.yaml
+- id: pmid:30027732
+  title: 'How To Optimize Materials and Devices via Design of Experiments and Machine
+    Learning: Demonstration Using Organic Photovoltaics.'
+  authors:
+  - Bing Cao
+  - Lawrence A Adutwum
+  - Anton O Oliynyk
+  - Erik J Luber
+  - Brian C Olsen
+  - Arthur Mar
+  - Jillian M Buriak
+  publisher: ACS nano
+  date: '2018-07-20'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/30027732
+  orcid: 0000-0003-0732-7340
+  plugin: orcid.py
+  file: orcid.yaml
 - id: pmid:30010335
   title: Machine Learning Directed Search for Ultraincompressible, Superhard Materials.
   authors:
@@ -739,6 +756,21 @@
   publisher: Journal of the American Chemical Society
   date: '2017-11-28'
   link: https://www.ncbi.nlm.nih.gov/pubmed/29129069
+  orcid: 0000-0003-0732-7340
+  plugin: orcid.py
+  file: orcid.yaml
+- id: pmid:27299657
+  title: "Gd12Co5.3Bi and Gd12Co5Bi, Crystalline Doppelg\xE4nger with Low Thermal\
+    \ Conductivities."
+  authors:
+  - Anton O Oliynyk
+  - Taylor D Sparks
+  - Michael W Gaultois
+  - Leila Ghadbeigi
+  - Arthur Mar
+  publisher: Inorganic chemistry
+  date: '2016-06-14'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/27299657
   orcid: 0000-0003-0732-7340
   plugin: orcid.py
   file: orcid.yaml
