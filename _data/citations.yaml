@@ -1009,8 +1009,7 @@
   date: '2020-12-04'
   link: https://doi.org/c7np
   type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: null
   image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
   buttons:
   - type: manubot
@@ -1020,9 +1019,6 @@
     link: https://github.com/greenelab/meta-review
   - type: website
     link: http://manubot.org/
-  tags:
-  - open science
-  - collaboration
   repo: greenelab/meta-review
   plugin: sources.py
   file: sources.yaml
