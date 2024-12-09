@@ -14,7 +14,7 @@
   image: images/SAF.png
   link: https://github.com/bobleesj/structure-analyzer-featurizer
   description: Generates geometric features of interatomic distances, atomic environment information, and coordination numbers.
-  repo: greenelab/lwebsite
+  repo: greenelab/website
   tags:
     - resource
 
