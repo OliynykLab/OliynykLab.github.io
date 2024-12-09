@@ -1,20 +1,20 @@
 - title: cifkit 
-  subtitle: by Bob and Anton.
+  subtitle: by Bob and Anton
   group: featured
   image: images/cifkit.png
   link: https://bobleesj.github.io/cifkit/
   description: Python package for .cif high-throughput analysis.
-  repo: greenelab/lab-website-template
+  repo: greenelab/website
   tags:
     - resource
 
 - title: Structure Analyzer/Featurizer (SAF)
-  subtitle: by Bob and Anton <i>et al.</i>
+  subtitle: by Bob and Anton *et al.*
   group: featured
   image: images/SAF.png
   link: https://github.com/bobleesj/structure-analyzer-featurizer
   description: Generates geometric features of interatomic distances, atomic environment information, and coordination numbers.
-  repo: greenelab/lab-website-template
+  repo: greenelab/lwebsite
   tags:
     - resource
 
@@ -24,26 +24,26 @@
   image: images/CAF.png
   link: https://github.com/bobleesj/composition-analyzer-featurizer
   description: Generates chemical compositional features and provides tools for filtering, sorting, and merging data.
-  repo: greenelab/lab-website-template
+  repo: greenelab/website
   tags:
     - resource
 
 
 - title: VASP Tutorial
-  subtitle: by Emil Jaffal
-  image: images/photo.jpg
+  subtitle: by Emil
+  image: images/VASP.png
   link: https://emiljaffal.github.io/VASP.html
   description: Using VASP for density functional theory (DFT)
-  repo: greenelab/lab-website-template
+  repo: greenelab/website
   tags:
     - resource
     - website
 
 - title: CIF Bond Analyzer 
-  subtitle: by Anton, Bob and Emil.
+  subtitle: by Anton, Bob and Emil
   image: images/CBA.png
   link: https://github.com/bobleesj/cif-bond-analyzer
   description: Command-line Python application designed for high-throughput extraction of minimum bond length and atomic mixing information from CIF files, used in solid-state chemistry
-  repo: greenelab/lab-website-template
+  repo: greenelab/website
   tags:
     - resource
