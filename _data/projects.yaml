@@ -9,7 +9,7 @@
     - resource
 
 - title: Structure Analyzer/Featurizer (SAF)
-  subtitle: by Bob and Anton *et al.*
+  subtitle: by Bob and Anton et al.
   group: featured
   image: images/SAF.png
   link: https://github.com/bobleesj/structure-analyzer-featurizer
