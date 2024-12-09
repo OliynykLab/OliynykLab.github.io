@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Here's a list of some things we did!
+Here's a list of some things we did! Most if not all of our software is open-source.
 
 {% include tags.html tags="publication, resource, website" %}
 
