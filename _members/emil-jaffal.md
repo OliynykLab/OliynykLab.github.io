@@ -6,7 +6,7 @@ description: PhD Student (1st Year)
 links:
   github: emiljaffal
   email: ejaffal@cuny.gradcenter.edu
-  website: emiljaffal.github.io
+  website: https://emiljaffal.github.io
   linkedin: https://www.linkedin.com/in/emil-jaffal/
 ---
 
