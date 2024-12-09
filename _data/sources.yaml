@@ -1,14 +1,4 @@
-- id: doi:10.1371/journal.pcbi.1007128
+- id: doi:10.5281/zenodo.14086942
   type: paper
   description: 
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
-  repo: greenelab/meta-review
+  date: 2024-11-4

@@ -2,7 +2,7 @@
 name: Emil Jaffal
 image: images/EJ_headshot.jpeg
 role: phd
-description: PhD Student
+description: PhD Student (1st Year)
 links:
   github: emiljaffal
   email: ejaffal@cuny.gradcenter.edu
