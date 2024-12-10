@@ -19,4 +19,8 @@ Text placeholder
 
 {% include section.html background="images/background.jpg" dark=true %}
 
+{% capture content %}
+
+{% endcapture %}
+
 {% include grid.html style="square" content=content %}
