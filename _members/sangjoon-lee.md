@@ -1,6 +1,6 @@
 ---
 name: Bob (Sangjoon) Lee
-image: images/photo.jpg
+image: images/SL.jpg
 role: Programmer
 description: Research Volunteer
 links:

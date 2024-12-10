@@ -1,8 +1,8 @@
 ---
-title: Example post 3
-image: images/photo.jpg
-author: john-doe
-tags: biology, medicine
+title: Example post 1
+image: images/garfield.png
+author: emil-jaffal
+tags: machine-learning, solid-state-chemistry
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Meow meow :) Check back soon!
