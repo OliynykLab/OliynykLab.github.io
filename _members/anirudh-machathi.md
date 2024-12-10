@@ -1,7 +1,7 @@
 ---
 name: Anirudh Machathi
 image: images/photo.jpg
-role: Programmer
+role: programmer
 description: Research Volunteer
 links:
 ---
