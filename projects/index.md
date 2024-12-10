@@ -7,7 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
+<div style="text-align: center;">
 Here's a list of some things we did! Most if not all of our software is open-source.
+</div>
 
 {% include tags.html tags="publication, resource, website" %}
 

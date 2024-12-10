@@ -7,7 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
+<div style="text-align: center;">
 Questions? Want to collaborate or just reach out? Click below!
+</div>
 
 {%
   include button.html
