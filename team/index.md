@@ -7,7 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Text placeholder
+<div style="text-align: center;">
+  Here's our wonderful team!
+</div>
 
 {% include section.html %}
 
