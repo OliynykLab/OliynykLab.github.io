@@ -11,7 +11,7 @@ In our lab, we explore intermetallics—compounds where metals and metalloids in
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our research is special in the sense that we do exploratory synthesis, trying to learn about structure-property relationships of various compositions and crystal systems. Many of these properties are valuable, such as superconductivity and neutron absorption therefore can afford benefits to society.
 
 {%
   include button.html
@@ -34,7 +34,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We developed many in-house open-source softwares as well as tutorials for solid state chemists to take advantage of with them in mind.
 
 {%
   include button.html
