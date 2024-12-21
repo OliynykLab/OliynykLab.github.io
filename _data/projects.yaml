@@ -1,3 +1,13 @@
+- title: CIF Site Analysis 
+  subtitle: by Balar, Emil and Anton
+  group: featured
+  image: images/SA.png
+  link: https://github.com/EmilJaffal/Site-Analysis
+  description: Python script parses .cif files based on structure type and creates a CSV table with site compositions, and heat maps for each site (up to 5 sites) and a heat map for compositions.
+  repo: greenelab/website
+  tags:
+    - software
+
 - title: cifkit 
   subtitle: by Bob and Anton
   group: featured
@@ -6,7 +16,7 @@
   description: Python package for .cif high-throughput analysis.
   repo: greenelab/website
   tags:
-    - resource
+    - software
 
 - title: Structure Analyzer/Featurizer (SAF)
   subtitle: by Bob and Anton et al.
@@ -16,7 +26,7 @@
   description: Generates geometric features of interatomic distances, atomic environment information, and coordination numbers.
   repo: greenelab/website
   tags:
-    - resource
+    - software
 
 - title: Composition Analyzer/Featurizer (CAF)
   subtitle: by Anton, Bob, Alex, Nikhil, Danila and Emil
@@ -26,7 +36,7 @@
   description: Generates chemical compositional features and provides tools for filtering, sorting, and merging data.
   repo: greenelab/website
   tags:
-    - resource
+    - software
 
 
 - title: VASP Tutorial
@@ -36,8 +46,8 @@
   description: Using VASP for density functional theory (DFT)
   repo: greenelab/website
   tags:
-    - resource
     - website
+    - resource
 
 - title: CIF Bond Analyzer 
   subtitle: by Anton, Bob and Emil
@@ -46,4 +56,4 @@
   description: Command-line Python application designed for high-throughput extraction of minimum bond length and atomic mixing information from CIF files, used in solid-state chemistry
   repo: greenelab/website
   tags:
-    - resource
+    - software

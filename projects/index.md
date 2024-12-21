@@ -11,7 +11,7 @@ nav:
 Here's a list of some things we did! Most if not all of our software is open-source.
 </div>
 
-{% include tags.html tags="publication, resource, website" %}
+{% include tags.html tags="publication, resource, website, software" %}
 
 {% include search-info.html %}
 
