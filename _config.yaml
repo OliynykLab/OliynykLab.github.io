@@ -35,7 +35,7 @@ defaults:
       layout: post
     # markdown files in /_courses
   - scope:
-      type: "posts"
+      type: "courses"
     values:
       layout: post
 

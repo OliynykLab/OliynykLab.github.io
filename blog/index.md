@@ -11,8 +11,6 @@ nav:
 Stay up to date with our lab!
 </div>
 
-
-
 {% include section.html %}
 
 {% include search-box.html %}
