@@ -1,8 +1,8 @@
 ---
-title: Example post 1
+title: Example course 1
 image: images/garfield.png
 author: emil-jaffal
-tags: machine-learning
+tags: python data-analysis 
 ---
 
-Meow meow check back soon
+Meow meow check back soon!
