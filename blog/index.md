@@ -7,7 +7,11 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
 
-Stay up to date withour lab!
+<div style="text-align: center;">
+Stay up to date with our lab!
+</div>
+
+
 
 {% include section.html %}
 

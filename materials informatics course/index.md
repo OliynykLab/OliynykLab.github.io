@@ -1,13 +1,15 @@
 ---
 title: Materials Informatics Course
 nav:
-  order: 4.1
+  order: 5
   tooltip: Musings and miscellany
 ---
 
 # {% include icon.html icon="fa-solid fa-book" %}Materials Informatics Course
 
+<div style="text-align: center;">
 Some introduction about goals, what you'll get out of this, etc. Open-source... yada-yada etc.
+</div>
 
 {% include section.html %}
 

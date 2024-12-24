@@ -37,7 +37,7 @@ defaults:
   - scope:
       type: "courses"
     values:
-      layout: course
+      layout: post
 
 collections:
   # generate page for each member
