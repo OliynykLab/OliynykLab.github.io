@@ -33,6 +33,11 @@ defaults:
       type: "posts"
     values:
       layout: post
+    # markdown files in /_courses
+  - scope:
+      type: "courses"
+    values:
+      layout: course
 
 collections:
   # generate page for each member
