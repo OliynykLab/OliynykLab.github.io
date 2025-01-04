@@ -3,8 +3,7 @@
   group: featured
   image: images/AML.png
   link: https://github.com/AnirudhM2110/Automated-Machine-Learning-Workflow-for-Excel-Data
-  description: Command-line interface to preprocess, analyze, and visualize data using a variety of machine learning models, including both unsupervised (PCA, clustering) and supervised (classification) learning methods. See the demo [here!](videos/Anirudh_ML.mp4)
-  repo: greenelab/website
+  description: "Command-line interface to preprocess, analyze, and visualize data using a variety of machine learning models, including both unsupervised (PCA, clustering) and supervised (classification) learning methods. See the demo below: ![](videos/Anirudh_ML.mp4)"
   tags:
     - software
 
