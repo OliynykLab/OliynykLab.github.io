@@ -3,9 +3,23 @@
   group: featured
   image: images/AML.png
   link: https://github.com/AnirudhM2110/Automated-Machine-Learning-Workflow-for-Excel-Data
-  description: "Command-line interface to preprocess, analyze, and visualize data using a variety of machine learning models, including both unsupervised (PCA, clustering) and supervised (classification) learning methods. See the demo below: ![](videos/Anirudh_ML.mp4)"
+  description: |
+    Command-line interface to preprocess, analyze, and visualize data using a variety of machine learning models, including both unsupervised (PCA, clustering) and supervised (classification) learning methods.
+
+    See the demo below: 
+
+    <div style="padding:62.5% 0 0 0;position:relative;">
+      <iframe src="https://player.vimeo.com/video/1043838404?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+              frameborder="0" 
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
+              style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+              title="Anirudh_ML">
+      </iframe>
+    </div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
   tags:
     - software
+
 
 - title: Structure Type Explorer (STEx)
   subtitle: by Danila, Brian and Anton
