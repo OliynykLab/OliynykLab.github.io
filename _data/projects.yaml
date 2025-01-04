@@ -1,3 +1,24 @@
+- title: Automated Machine Learning Workflow for Excel Data
+  subtitle: by Anirudh and Anton
+  group: featured
+  image: images/SA.png
+  link: https://github.com/AnirudhM2110/Automated-Machine-Learning-Workflow-for-Excel-Data
+  video: videos/Anirudh_ML.mp4
+  description: Command-line interface to preprocess, analyze, and visualize data using a variety of machine learning models, including both unsupervised (PCA, clustering) and supervised (classification) learning methods.
+  repo: greenelab/website
+  tags:
+    - software
+
+- title: Structure Type Explorer (STEx)
+  subtitle: by Danila, Brian and Anton
+  group: featured
+  image: images/STEx.png
+  link: https://github.com/dshirya/structure-type-explorer
+  description: Python package for visualizing binary compounds on periodic tables and recommending elements for novel compound discovery.
+  repo: greenelab/website
+  tags:
+    - software
+
 - title: CIF Site Analysis 
   subtitle: by Balar, Emil and Anton
   group: featured
@@ -43,7 +64,7 @@
   subtitle: by Emil
   image: images/VASP.png
   link: https://emiljaffal.github.io/VASP.html
-  description: Using VASP for density functional theory (DFT)
+  description: Tutorial to using VASP for running density functional theory calculations in solid-state chemistry.
   repo: greenelab/website
   tags:
     - website
@@ -53,7 +74,7 @@
   subtitle: by Anton, Bob and Emil
   image: images/CBA.png
   link: https://github.com/bobleesj/cif-bond-analyzer
-  description: Command-line Python application designed for high-throughput extraction of minimum bond length and atomic mixing information from CIF files, used in solid-state chemistry
+  description: Command-line Python application designed for high-throughput extraction of minimum bond length and atomic mixing information from .cif files.
   repo: greenelab/website
   tags:
     - software
