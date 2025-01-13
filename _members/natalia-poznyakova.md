@@ -1,6 +1,6 @@
 ---
 name: Natalia Poznyakova
-image: images/photo.jpg
+image: images/NP.png
 role: undergrad
 description: Undergraduate Student
 links:

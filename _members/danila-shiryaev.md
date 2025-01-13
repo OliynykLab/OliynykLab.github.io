@@ -1,6 +1,6 @@
 ---
 name: Danila Shiryaev
-image: images/photo.jpg
+image: images/DS.jpeg
 role: undergrad
 description: Undergraduate Student
 links:
