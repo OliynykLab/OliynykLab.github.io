@@ -1,13 +1,29 @@
+- title: High-throughput LMTO
+  subtitle: by Bala, Emil and Anton
+  group: featured
+  image: images/photo.jpg
+  link: https://github.com/AnirudhM2110/Automated-Machine-Learning-Workflow-for-Excel-Data
+  description: This is a package to automate the steps involved in performing LMTO calculations. The code will take a list of .cif files as input and for each structure in the list, an LMTO calculation will be performed including optimization, band structure calculation, and density of states calculation (DOS). The outputs from band structure and DOS calculation are saved as comma-separated files.
+  tags:
+    - software
+
+- title: High-throughput LMTO plotter
+  subtitle: by Emil, Bala and Anton
+  group: featured
+  image: images/photo.jpg
+  link: https://github.com/AnirudhM2110/Automated-Machine-Learning-Workflow-for-Excel-Data
+  description: This script parses .csv files produced by the high-throughput LMTO package and automatically produces easily readable & aesthetically pleasing plots ready for publication, posters or presentations. Run the plotter.py file and input the directory to either: a folder (titled with the composition/structure) or a folder (that can be any name) of folders (titled with the composition/structure).
+  tags:
+    - software
+
 - title: Automated Machine Learning Workflow for Excel Data
   subtitle: by Anirudh, Emil and Anton
   group: featured
   image: images/AML.png
   link: https://github.com/AnirudhM2110/Automated-Machine-Learning-Workflow-for-Excel-Data
-  description: "Command-line interface to preprocess, analyze, and visualize data using a variety of machine learning models, including both unsupervised (PCA, clustering) and supervised (classification) learning methods. See the demo [here!](https://vimeo.com/1043838404?share=copy)"
+  description: Command-line interface to preprocess, analyze, and visualize data using a variety of machine learning models, including both unsupervised (PCA, clustering) and supervised (classification) learning methods. See the demo [here!](https://vimeo.com/1043838404?share=copy)
   tags:
     - software
-
-
 
 - title: Structure Type Explorer (STEx)
   subtitle: by Danila, Brian, Emil and Anton
@@ -20,7 +36,7 @@
     - software
 
 - title: CIF Site Analysis 
-  subtitle: by Balar, Emil and Anton
+  subtitle: by Bala, Emil and Anton
   group: featured
   image: images/SA.png
   link: https://github.com/EmilJaffal/Site-Analysis
@@ -58,7 +74,6 @@
   repo: greenelab/website
   tags:
     - software
-
 
 - title: VASP Tutorial
   subtitle: by Emil
