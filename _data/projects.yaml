@@ -2,7 +2,7 @@
   subtitle: by Bala, Emil and Anton
   group: featured
   image: images/photo.jpg
-  link: https://github.com/AnirudhM2110/Automated-Machine-Learning-Workflow-for-Excel-Data
+  link: https://github.com/balaranjan/High-throughput-LMTO
   description: This is a package to automate the steps involved in performing LMTO calculations. The code will take a list of .cif files as input and for each structure in the list, an LMTO calculation will be performed including optimization, band structure calculation, and density of states calculation (DOS). The outputs from band structure and DOS calculation are saved as comma-separated files.
   tags:
     - software
@@ -11,7 +11,7 @@
   subtitle: by Emil, Bala and Anton
   group: featured
   image: images/LMTO_Plotter.png
-  link: https://github.com/AnirudhM2110/Automated-Machine-Learning-Workflow-for-Excel-Data
+  link: https://github.com/EmilJaffal/High-throughput-LMTO-plotter
   description: This script parses .csv files produced by the high-throughput LMTO package and automatically produces easily readable & aesthetically pleasing plots ready for publication, posters or presentations. Run the plotter.py file and input the directory to either a folder (titled with the composition/structure) or a folder (that can be any name) of folders (titled with the composition/structure).
   tags:
     - software
