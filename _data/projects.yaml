@@ -1,7 +1,7 @@
 - title: High-throughput LMTO
   subtitle: by Bala, Emil and Anton
   group: featured
-  image: images/photo.jpg
+  image: images/High-throughput_LMTO.png
   link: https://github.com/balaranjan/High-throughput-LMTO
   description: This is a package to automate the steps involved in performing LMTO calculations. The code will take a list of .cif files as input and for each structure in the list, an LMTO calculation will be performed including optimization, band structure calculation, and density of states calculation (DOS). The outputs from band structure and DOS calculation are saved as comma-separated files.
   tags:
