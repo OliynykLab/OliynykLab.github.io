@@ -1,3 +1,12 @@
+- title: Custom features
+  subtitle: by Bob, Bala and Anton
+  group: featured
+  image: images/customfeatures.png
+  link: 
+  description: This is a package that can generate custom features, essential for ML, especially for analyzing complex crystal structures like Yb₁₄MnSb₁₁, a thermoelectric material with a Ca₁₄AlSb₁₁-type structure. These features capture detailed geometric and structural information, such as polyhedron volumes, edge distortions, and atomic distances, focusing on specific sites like Mn(8a) and Sb₄(8b). Researchers can better correlate material properties, such as conductivity and band gap, by tailoring features to structural nuances with their crystal environments. This approach is automated for high-throughput analysis, enabling the study of large datasets efficiently.
+  tags:
+    - software
+
 - title: High-throughput LMTO
   subtitle: by Bala, Emil and Anton
   group: featured
