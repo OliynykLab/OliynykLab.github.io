@@ -2,7 +2,7 @@
   subtitle: by Bob, Bala and Anton
   group: featured
   image: images/customfeatures.png
-  link: projects/Custom_features.docx
+  link: https://github.com/OliynykLab/Custom-features
   description: This is a package that can generate custom features, essential for ML, especially for analyzing complex crystal structures. These features capture detailed geometric and structural information, such as polyhedron volumes, edge distortions, and atomic distances, focusing on specific sites. Researchers can better correlate material properties, such as conductivity and band gap, by tailoring features to structural nuances with their crystal environments. This approach is automated for high-throughput analysis, enabling the study of large datasets efficiently.
   tags:
     - software
