@@ -1,4 +1,13 @@
 - title: Custom features
+  subtitle: by Emil, Alex and Anton
+  group: featured
+  image: images/XRD.png
+  link: https://github.com/OliynykLab/XRD-Matcher
+  description: This is an interactive software done in jupyter notebook for user-ease. It will plot a single chosen experimental x-ray diffraction (.xy) file and allow you to compare it against proposed structures (.cif - can be acquired from PCD or any other crystal structure database). 
+  tags:
+    - software
+    
+- title: Custom features
   subtitle: by Bob, Bala and Anton
   group: featured
   image: images/customfeatures.png
