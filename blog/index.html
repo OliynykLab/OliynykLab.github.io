@@ -558,20 +558,21 @@ Stay up to date with our lab!
 <style>
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    max-width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1000px;
     margin: 0 auto;
+    padding: 0 20px;
   }
   
   .card {
     border: 1px solid #e0e0e0;
     border-radius: 8px;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
     background-color: #fff;
     transition: transform 0.2s;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
   
   .card img {
@@ -582,24 +583,6 @@ Stay up to date with our lab!
   
   .card:hover {
     transform: scale(1.03);
-  }
-  
-  @media (max-width: 1200px) {
-    .grid-container {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-  
-  @media (max-width: 900px) {
-    .grid-container {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  
-  @media (max-width: 600px) {
-    .grid-container {
-      grid-template-columns: repeat(1, 1fr);
-    }
   }
   </style>
 
