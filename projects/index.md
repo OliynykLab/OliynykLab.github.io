@@ -19,7 +19,7 @@ Here's a list of some things we did! Most if not all of our software is open-sou
 
 ## Featured
 
-{% include list.html component="grid" data="projects" filter="!group" columns="3" %}
+{% include list.html component="card" data="projects" filter="group == 'featured'" columns="3" %}
 
 {% include section.html %}
 
