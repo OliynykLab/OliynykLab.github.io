@@ -560,7 +560,7 @@ Stay up to date with our lab!
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    max-width: 2100px;
+    max-width: 2000px;
     margin: 0 auto;
   }
 
@@ -578,8 +578,23 @@ Stay up to date with our lab!
     margin: 5px 0;
   }
 
-  body {
-    overflow-x: hidden;
+  /* Centering the grid properly */
+  @media (max-width: 2200px) {
+    .grid-container {
+      max-width: 90%;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
 
