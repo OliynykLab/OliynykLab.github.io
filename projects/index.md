@@ -26,3 +26,4 @@ Here's a list of some things we did! Most if not all of our software is open-sou
 ## More
 
 {% include list.html component="card" data="projects" filter="!group" style="small" %}
+
