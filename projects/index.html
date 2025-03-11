@@ -567,6 +567,8 @@ Here's a list of some things we did! Most if not all of our software is open-sou
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    max-width: 100%;
+    margin: 0 auto;
   }
   
   .card {
@@ -576,16 +578,35 @@ Here's a list of some things we did! Most if not all of our software is open-sou
     text-align: center;
     background-color: #fff;
     transition: transform 0.2s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
   
   .card img {
-    max-height: 100px;
-    margin-bottom: 30px;
+    max-height: 120px;
     object-fit: contain;
+    margin-bottom: 10px;
   }
   
   .card:hover {
     transform: scale(1.03);
+  }
+  
+  @media (max-width: 1200px) {
+    .grid-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
   </style>
 
@@ -969,8 +990,10 @@ Here's a list of some things we did! Most if not all of our software is open-sou
 <style>
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    max-width: 100%;
+    margin: 0 auto;
   }
   
   .card {
@@ -980,16 +1003,35 @@ Here's a list of some things we did! Most if not all of our software is open-sou
     text-align: center;
     background-color: #fff;
     transition: transform 0.2s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
   
   .card img {
-    max-height: 100px;
-    margin-bottom: 30px;
+    max-height: 120px;
     object-fit: contain;
+    margin-bottom: 10px;
   }
   
   .card:hover {
     transform: scale(1.03);
+  }
+  
+  @media (max-width: 1200px) {
+    .grid-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
   </style>
 
