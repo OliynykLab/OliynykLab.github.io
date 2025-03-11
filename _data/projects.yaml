@@ -3,7 +3,7 @@
   group: featured
   image: images/XRD.png
   link: https://github.com/OliynykLab/XRD-Matcher
-  description: This is an interactive software done in jupyter notebook for user-ease. It will plot a single chosen experimental x-ray diffraction (.xy) file and allow you to compare it against proposed structures (.cif - can be acquired from PCD or any other crystal structure database). 
+  description: This is an interactive software done in jupyter notebook for user-ease. It will plot a single chosen experimental XRD file and allow you to compare it against proposed structures from CIFs. 
   tags:
     - software
     
@@ -12,7 +12,7 @@
   group: featured
   image: images/customfeatures.png
   link: https://github.com/OliynykLab/Custom-features
-  description: This is a package that can generate custom features, essential for ML, especially for analyzing complex crystal structures. These features capture detailed geometric and structural information, such as polyhedron volumes, edge distortions, and atomic distances, focusing on specific sites. Researchers can better correlate material properties, such as conductivity and band gap, by tailoring features to structural nuances with their crystal environments. This approach is automated for high-throughput analysis, enabling the study of large datasets efficiently.
+  description: Generates custom features for analyzing complex crystal structures. These features capture detailed geometric and structural information, such as polyhedron volumes, edge distortions, and atomic distances, focusing on specific sites.
   tags:
     - software
 
@@ -21,7 +21,7 @@
   group: featured
   image: images/High-throughput_LMTO.png
   link: https://github.com/balaranjan/High-throughput-LMTO
-  description: This is a package to automate the steps involved in performing LMTO calculations. The code will take a list of .cif files as input and for each structure in the list, an LMTO calculation will be performed including optimization, band structure calculation, and density of states calculation (DOS). The outputs from band structure and DOS calculation are saved as comma-separated files.
+  description: Automates the steps involved in performing LMTO calculations. The code will take a list of CIFs as input and for each structure in the list, an LMTO calculation will be performed including optimization, band structure, and density of states. The outputs are saved as easily-manageable CSVs.
   tags:
     - software
 
@@ -30,7 +30,7 @@
   group: featured
   image: images/LMTO_Plotter.png
   link: https://github.com/EmilJaffal/High-throughput-LMTO-plotter
-  description: This script parses .csv files produced by the high-throughput LMTO package and automatically produces easily readable & aesthetically pleasing plots ready for publication, posters or presentations. Run the plotter.py file and input the directory to either a folder (titled with the composition/structure) or a folder (that can be any name) of folders (titled with the composition/structure).
+  description: Parses .csv files produced by the high-throughput LMTO package and automatically produces easily readable & aesthetically pleasing plots ready for publication, posters or presentations. Run the plotter.py file and input the path.
   tags:
     - software
 
@@ -48,7 +48,7 @@
   group: featured
   image: images/STEx.png
   link: https://github.com/dshirya/structure-type-explorer
-  description: Python package for visualizing binary compounds on periodic tables and recommending elements for novel compound discovery.
+  description: Visualizes binary compounds on periodic tables and recommending elements for novel compound discovery.
   repo: greenelab/website
   tags:
     - software
@@ -58,7 +58,7 @@
   group: featured
   image: images/SA.png
   link: https://github.com/EmilJaffal/Site-Analysis
-  description: Python script parses .cif files based on structure type and creates a CSV table with site compositions, and heat maps for each site (up to 5 sites) and a heat map for compositions.
+  description: Parses .cif files based on structure type and creates a CSV table with site compositions, and heat maps for each site (up to 5 sites) and a heat map for compositions.
   repo: greenelab/website
   tags:
     - software
@@ -68,7 +68,7 @@
   group: featured
   image: images/cifkit.png
   link: https://bobleesj.github.io/cifkit/
-  description: Python package for .cif high-throughput analysis.
+  description: Python package for CIF high-throughput analysis.
   repo: greenelab/website
   tags:
     - software
@@ -109,7 +109,7 @@
   group: featured
   image: images/CBA.png
   link: https://github.com/bobleesj/cif-bond-analyzer
-  description: Command-line Python application designed for high-throughput extraction of minimum bond length and atomic mixing information from .cif files.
+  description: Command-line Python application designed for high-throughput extraction of minimum bond length and atomic mixing information from CIFs.
   repo: greenelab/website
   tags:
     - software
