@@ -431,6 +431,20 @@
   orcid: 0000-0003-0732-7340
   plugin: orcid.py
   file: orcid.yaml
+- id: pmid:31247819
+  title: 'Solving the Coloring Problem in Half-Heusler Structures: Machine-Learning
+    Predictions and Experimental Validation.'
+  authors:
+  - Alexander S Gzyl
+  - Anton O Oliynyk
+  - Lawrence A Adutwum
+  - Arthur Mar
+  publisher: Inorganic chemistry
+  date: '2019-06-25'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/31247819
+  orcid: 0000-0003-0732-7340
+  plugin: orcid.py
+  file: orcid.yaml
 - id: ppr:PPR74557
   title: 'Solving the Colouring Problem in Half-Heusler Structures: Machine-Learning
     Predictions and Experimental Validatio'
@@ -662,6 +676,24 @@
   publisher: ACS nano
   date: '2018-07-20'
   link: https://www.ncbi.nlm.nih.gov/pubmed/30027732
+  orcid: 0000-0003-0732-7340
+  plugin: orcid.py
+  file: orcid.yaml
+- id: pmid:30010335
+  title: Machine Learning Directed Search for Ultraincompressible, Superhard Materials.
+  authors:
+  - Aria Mansouri Tehrani
+  - Anton O Oliynyk
+  - Marcus Parry
+  - Zeshan Rizvi
+  - Samantha Couper
+  - Feng Lin
+  - Lowell Miyagi
+  - Taylor D Sparks
+  - Jakoah Brgoch
+  publisher: Journal of the American Chemical Society
+  date: '2018-07-30'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/30010335
   orcid: 0000-0003-0732-7340
   plugin: orcid.py
   file: orcid.yaml
