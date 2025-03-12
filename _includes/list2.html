@@ -1,0 +1,65 @@
+<style>
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: center;
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+
+  .card {
+    padding: 0;
+    text-align: center;
+  }
+
+  .card img {
+    max-height: 425px;
+    object-fit: contain;
+  }
+
+  .card h3, .card p {
+    margin: 10px 0;
+  }
+
+  .card h3, .card p {
+  text-align: left;
+}
+
+</style>
+
+<div class="grid-container">
+  {% assign emptyarray = "" | split: "," %}
+  {% assign data = site.data[include.data]
+    | default: site[include.data]
+    | default: emptyarray
+    | data_filter: include.filter
+  %}
+
+  {% assign years = data
+    | group_by_exp: "d", "d.date | date: '%Y'"
+    | sort: "name"
+    | reverse
+  %}
+
+  {% for year in years %}
+    {% assign data = year.items %}
+
+    {% if years.size > 1 %}
+      <h3 id="{{ year.name }}">{{ year.name }}</h3>
+      {% assign data = data | sort: "date" | reverse %}
+    {% endif %}
+
+    {% for d in data %}
+      <div class="card">
+        {% include {{ include.component | append: ".html" }}
+          title=d.title
+          description=d.description
+          image=d.image
+          link=d.link
+          date=d.date
+        %}
+      </div>
+    {% endfor %}
+  {% endfor %}
+</div>

@@ -1,5 +1,5 @@
 ---
-title: XRD
+title: XRD Tool
 nav:
   order: 6
   tooltip: Musings and miscellany

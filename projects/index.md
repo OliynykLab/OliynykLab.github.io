@@ -18,10 +18,10 @@ Here's a list of some things we did! Most if not all of our software is open-sou
 {% include section.html %}
 
 ## Featurization
-{% include list.html component="card" data="projects" filter="group == 'featurization'" columns="4" %}
+{% include list2.html component="card" data="projects" filter="group == 'featurization'" columns="4" %}
 
 ## Structure Exploration
-{% include list.html component="card" data="projects" filter="group == 'structure exploration'" columns="4" %}
+{% include list2.html component="card" data="projects" filter="group == 'structure exploration'" columns="4" %}
 
 ## Lab-use
-{% include list.html component="card" data="projects" filter="group == 'lab-use'" columns="4" %}
+{% include list2.html component="card" data="projects" filter="group == 'lab-use'" columns="4" %}

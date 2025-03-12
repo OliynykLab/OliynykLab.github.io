@@ -1,65 +1,59 @@
-<style>
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    justify-content: center;
-    max-width: 1800px;
-    margin: 0 auto;
-  }
+{% assign emptyarray = "" | split: "," %}
+{% assign data = site.data[include.data]
+  | default: site[include.data]
+  | default: emptyarray
+  | data_filter: include.filter
+%}
 
-  .card {
-    padding: 0;
-    text-align: center;
-  }
+{% assign years = data
+  | group_by_exp: "d", "d.date | date: '%Y'"
+  | sort: "name"
+  | reverse
+%}
 
-  .card img {
-    max-height: 425px;
-    object-fit: contain;
-  }
+{% for year in years %}
+  {% assign data = year.items %}
 
-  .card h3, .card p {
-    margin: 10px 0;
-  }
+  {% if years.size > 1 %}
+    {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
+    {% assign data = data | sort: "date" | reverse %}
+  {% endif %}
 
-  .card h3, .card p {
-  text-align: left;
-}
+  {% for d in data %}
+    {% assign style = d.style | default: include.style %}
 
-</style>
-
-<div class="grid-container">
-  {% assign emptyarray = "" | split: "," %}
-  {% assign data = site.data[include.data]
-    | default: site[include.data]
-    | default: emptyarray
-    | data_filter: include.filter
-  %}
-
-  {% assign years = data
-    | group_by_exp: "d", "d.date | date: '%Y'"
-    | sort: "name"
-    | reverse
-  %}
-
-  {% for year in years %}
-    {% assign data = year.items %}
-
-    {% if years.size > 1 %}
-      <h3 id="{{ year.name }}">{{ year.name }}</h3>
-      {% assign data = data | sort: "date" | reverse %}
-    {% endif %}
-
-    {% for d in data %}
-      <div class="card">
-        {% include {{ include.component | append: ".html" }}
-          title=d.title
-          description=d.description
-          image=d.image
-          link=d.link
-          date=d.date
-        %}
-      </div>
-    {% endfor %}
+    {%
+      include {{ include.component | append: ".html" }}
+      affiliation=d.affiliation
+      author=d.author
+      authors=d.authors
+      buttons=d.buttons
+      caption=d.caption
+      content=d.content
+      date=d.date
+      description=d.description
+      excerpt=d.excerpt
+      height=d.height
+      icon=d.icon
+      id=d.id
+      image=d.image
+      last_modified_at=d.last_modified_at
+      link=d.link
+      lookup=d.lookup
+      name=d.name
+      publisher=d.publisher
+      repo=d.repo
+      role=d.role
+      slug=d.slug
+      style=style
+      subtitle=d.subtitle
+      tags=d.tags
+      text=d.text
+      title=d.title
+      tooltip=d.tooltip
+      type=d.type
+      url=d.url
+      width=d.width
+    %}
   {% endfor %}
-</div>
+{% endfor %}
