@@ -11,19 +11,18 @@ nav:
 Here's a list of some things we did! Most if not all of our software is open-source.
 </div>
 
-{% include tags.html tags="publication, resource, website, software" %}
+{% include tags.html tags="featurization, lab-use, structure exploration" %}
 
 {% include search-info.html %}
 
 {% include section.html %}
 
-## Featured
+## Featurization
+{% include list.html component="card" data="projects" filter="group == 'featurization'" columns="4" %}
 
-{% include list.html component="card" data="projects" filter="group == 'featured'" columns="4" %}
+## Lab
+{% include list.html component="card" data="projects" filter="group == 'lab-use'" columns="4" %}
 
-{% include section.html %}
-
-## More
-
-{% include list.html component="card" data="projects" filter="!group" style="small" %}
+## Structure Exploration
+{% include list.html component="card" data="projects" filter="group == 'structure exploration'" columns="4" %}
 

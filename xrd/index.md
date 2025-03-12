@@ -5,10 +5,10 @@ nav:
   tooltip: Musings and miscellany
 ---
 
-# {% include icon.html icon="fa-solid fa-book" %}Courses
+# {% include icon.html icon="fa-solid fa-plug" %}XRD Tool
 
 <div style="text-align: center;">
-Some introduction about goals, what you'll get out of this, etc. Open-source... yada-yada etc.
+[TBA]
 </div>
 
 {% include section.html %}

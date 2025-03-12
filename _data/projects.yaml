@@ -1,6 +1,6 @@
 - title: XRD Matcher
   subtitle: by Emil, Alex and Anton
-  group: featured
+  group: lab-use
   image: images/XRD.png
   link: https://github.com/OliynykLab/XRD-Matcher
   description: This is an interactive software done in jupyter notebook for user-ease. It will plot a single chosen experimental XRD file and allow you to compare it against proposed structures from CIFs. 
@@ -9,7 +9,7 @@
     
 - title: Custom features
   subtitle: by Bob, Bala and Anton
-  group: featured
+  group: featurization
   image: images/customfeatures.png
   link: https://github.com/OliynykLab/Custom-features
   description: Generates custom features for analyzing complex crystal structures. These features capture detailed geometric and structural information, such as polyhedron volumes, edge distortions, and atomic distances, focusing on specific sites.
@@ -18,7 +18,7 @@
 
 - title: High-throughput LMTO
   subtitle: by Bala, Emil and Anton
-  group: featured
+  group: lab-use
   image: images/High-throughput_LMTO.png
   link: https://github.com/balaranjan/High-throughput-LMTO
   description: Automates the steps involved in performing LMTO calculations. The code will take a list of CIFs as input and for each structure in the list, an LMTO calculation will be performed including optimization, band structure, and density of states. The outputs are saved as easily-manageable CSVs.
@@ -27,7 +27,7 @@
 
 - title: High-throughput LMTO plotter
   subtitle: by Emil, Bala and Anton
-  group: featured
+  group: lab-use
   image: images/LMTO_Plotter.png
   link: https://github.com/EmilJaffal/High-throughput-LMTO-plotter
   description: Parses .csv files produced by the high-throughput LMTO package and automatically produces easily readable & aesthetically pleasing plots ready for publication, posters or presentations. Run the plotter.py file and input the path.
@@ -36,7 +36,7 @@
 
 - title: Automated Machine Learning Workflow for Excel Data
   subtitle: by Anirudh, Emil and Anton
-  group: featured
+  group: featurization
   image: images/AML.png
   link: https://github.com/AnirudhM2110/Automated-Machine-Learning-Workflow-for-Excel-Data
   description: Command-line interface to preprocess, analyze, and visualize data using a variety of machine learning models, including both unsupervised (PCA, clustering) and supervised (classification) learning methods. See the demo [here!](https://vimeo.com/1043838404?share=copy)
@@ -45,7 +45,7 @@
 
 - title: Structure Type Explorer (STEx)
   subtitle: by Danila, Brian, Emil and Anton
-  group: featured
+  group: structure exploration
   image: images/STEx.png
   link: https://github.com/dshirya/structure-type-explorer
   description: Visualizes binary compounds on periodic tables and recommending elements for novel compound discovery.
@@ -55,7 +55,7 @@
 
 - title: CIF Site Analysis 
   subtitle: by Bala, Emil and Anton
-  group: featured
+  group: structure exploration
   image: images/SA.png
   link: https://github.com/EmilJaffal/Site-Analysis
   description: Parses .cif files based on structure type and creates a CSV table with site compositions, and heat maps for each site (up to 5 sites) and a heat map for compositions.
@@ -65,7 +65,7 @@
 
 - title: cifkit 
   subtitle: by Bob and Anton
-  group: featured
+  group: structure exploration
   image: images/cifkit.png
   link: https://bobleesj.github.io/cifkit/
   description: Python package for CIF high-throughput analysis.
@@ -75,7 +75,7 @@
 
 - title: Structure Analyzer/Featurizer (SAF)
   subtitle: by Bob and Anton et al.
-  group: featured
+  group: featurization
   image: images/SAF.png
   link: https://github.com/bobleesj/structure-analyzer-featurizer
   description: Generates geometric features of interatomic distances, atomic environment information, and coordination numbers.
@@ -85,7 +85,7 @@
 
 - title: Composition Analyzer/Featurizer (CAF)
   subtitle: by Anton, Bob, Alex, Nikhil, Danila and Emil
-  group: featured
+  group: featurization
   image: images/CAF.png
   link: https://github.com/bobleesj/composition-analyzer-featurizer
   description: Generates chemical compositional features and provides tools for filtering, sorting, and merging data.
@@ -95,7 +95,7 @@
 
 - title: VASP Tutorial
   subtitle: by Emil
-  group: featured
+  group: lab-use
   image: images/VASP.png
   link: https://emiljaffal.github.io/VASP.html
   description: Tutorial to using VASP for running density functional theory calculations in solid-state chemistry.
@@ -106,7 +106,7 @@
 
 - title: CIF Bond Analyzer 
   subtitle: by Anton, Bob and Emil
-  group: featured
+  group: structure exploration
   image: images/CBA.png
   link: https://github.com/bobleesj/cif-bond-analyzer
   description: Command-line Python application designed for high-throughput extraction of minimum bond length and atomic mixing information from CIFs.
