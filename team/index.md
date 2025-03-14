@@ -16,6 +16,7 @@ nav:
 {% include list.html data="members" component="portrait" filter="role == 'pi'" %}
 {% include list.html data="members" component="portrait" filter="role == 'postdoc'" %}
 {% include list.html data="members" component="portrait" filter="role == 'phd'" %}
+{% include list.html data="members" component="portrait" filter="role == 'postbac'" %}
 {% include list.html data="members" component="portrait" filter="role == 'programmer'" %}
 {% include list.html data="members" component="portrait" filter="role == 'undergrad'" %}
 

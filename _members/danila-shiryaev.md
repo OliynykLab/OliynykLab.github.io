@@ -1,8 +1,8 @@
 ---
 name: Danila Shiryaev
 image: images/DS.jpeg
-role: undergrad
-description: Undergraduate Student
+role: postbac
+description: Post-Bac
 links:
   github: dshirya
   linkedin: https://www.linkedin.com/in/danila-shiryaev-66ab94227/
