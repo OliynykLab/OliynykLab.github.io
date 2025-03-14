@@ -5,6 +5,10 @@ nav:
   tooltip: Musings and miscellany
 ---
 
+<head>
+  <meta http-equiv="refresh" content="0; url=https://xrd-tool-785a7687ee07.herokuapp.com" />
+</head>
+
 # {% include icon.html icon="fa-solid fa-plug" %}XRD Tool
 
 <div style="text-align: center;">
@@ -14,3 +18,5 @@ nav:
     </button>
   </a>
 </div>
+
+{% include section.html %}
