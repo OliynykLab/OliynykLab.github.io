@@ -26,3 +26,7 @@ nav:
 {% endcapture %}
 
 {% include grid.html style="square" content=content %}
+
+## Alumni
+
+{% include list.html data="members" component="portrait" filter="status == 'alumni'" %}
