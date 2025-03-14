@@ -8,7 +8,9 @@ nav:
 # {% include icon.html icon="fa-solid fa-plug" %}XRD Tool
 
 <div style="text-align: center;">
-[Access the XRD Tool Here](https://xrd-tool-785a7687ee07.herokuapp.com)
+  <a href="https://xrd-tool-785a7687ee07.herokuapp.com" target="_blank">
+    <button style="padding: 15px 32px; font-size: 16px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      Access the XRD Tool Here
+    </button>
+  </a>
 </div>
-
-{% include section.html %}
