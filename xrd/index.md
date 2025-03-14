@@ -8,7 +8,7 @@ nav:
 # {% include icon.html icon="fa-solid fa-plug" %}XRD Tool
 
 <div style="text-align: center;">
-[TBA]
+[Access the XRD Tool Here](https://xrd-tool-785a7687ee07.herokuapp.com)
 </div>
 
 {% include section.html %}
