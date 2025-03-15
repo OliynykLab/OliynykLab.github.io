@@ -70,15 +70,12 @@ jobs:
       - name: Check if citations changed
         if: github.event.action != 'closed'
         id: changed
-        uses: tj-actions/verify-changed-files@v18
-        with:
-          files: |
-            _data/citations.yaml
+        run: python check_changes.py _data/citations.yaml
 
       - name: Commit updated citations to branch
         if: |
           github.event.action != 'closed' &&
-          steps.changed.outputs.files_changed == 'true' &&
+          steps.changed.outputs.changed == 'true' &&
           inputs.open-pr != true
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
@@ -87,7 +84,7 @@ jobs:
       - name: Open pull request with updated citations
         if: |
           github.event.action != 'closed' &&
-          steps.changed.outputs.files_changed == 'true' &&
+          steps.changed.outputs.changed == 'true' &&
           inputs.open-pr == true
         uses: peter-evans/create-pull-request@v6
         with:
@@ -97,4 +94,4 @@ jobs:
             To see a live preview of this PR, close (don't merge) and reopen it.
 
     outputs:
-      changed: ${{ steps.changed.outputs.files_changed || false }}
+      changed: ${{ steps.changed.outputs.changed || false }}
