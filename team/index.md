@@ -15,7 +15,7 @@ nav:
 
 {% include section.html %}
 
-## Principal Investigator (PI)
+## Principal Investigator
 
 {% include list.html data="members" component="portrait" filter="role == 'pi'" %}
 
