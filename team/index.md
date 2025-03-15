@@ -11,6 +11,8 @@ nav:
   Here's our wonderful team!
 </div>
 
+{% include button.html icon="fa-solid fa-door-open" text="Join us" link="/team/join" %}
+
 {% include section.html %}
 
 ## Principal Investigator (PI)
