@@ -7,7 +7,7 @@ nav:
 
 ## <span style="font-size: 1.8em;">Easily Accessible Lab Tools</span>  
 
-For those without any GitHub experience, we've developed our software into easily accessible web applications deployed using Heroku. These tools are designed to simplify data analysis without requiring software installation. Here are some of them:  
+<span style="font-size: 1.4em;">For those without any GitHub experience, we've developed our software into easily accessible web applications deployed using Heroku. These tools are designed to simplify data analysis without requiring software installation. Here are some of them:  
 
 ---
 
