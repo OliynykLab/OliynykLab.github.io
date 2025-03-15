@@ -2,7 +2,7 @@
 title: Web Apps
 nav:
   order: 6
-  tooltip: Musings and miscellany
+  tooltip: Cool stuff
 ---
 
 ## <span style="font-size: 2.0em;">Easily Accessible Lab Tools</span>  

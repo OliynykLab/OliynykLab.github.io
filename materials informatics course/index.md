@@ -2,7 +2,7 @@
 title: Materials Informatics Course
 nav:
   order: 5
-  tooltip: Musings and miscellany
+  tooltip: Learning and stuff
 ---
 
 # {% include icon.html icon="fa-solid fa-book" %}Courses

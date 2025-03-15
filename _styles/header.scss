@@ -158,9 +158,11 @@ header[data-big] {
     text-align: center;
   }
 
+
   .title {
-    font-size: var(--xxl);
+  font-size: 48px; /* Adjust this value to whatever size you prefer */
   }
+
 
   .subtitle {
     font-size: var(--large);
