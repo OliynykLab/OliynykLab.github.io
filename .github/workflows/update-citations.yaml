@@ -71,6 +71,10 @@ jobs:
         if: github.event.action != 'closed'
         id: changed
         run: python check_changes.py _data/citations.yaml
+        uses: tj-actions/verify-changed-files@v17
+        with:
+          files: |
+            _data/citations.yaml
 
       - name: Commit updated citations to branch
         if: |
