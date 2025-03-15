@@ -12,4 +12,3 @@ links:
   orcid: 0000-0003-0732-7340
 ---
 
-Placeholder text
