@@ -13,11 +13,28 @@ nav:
 
 {% include section.html %}
 
+## Principal Investigator (PI)
+
 {% include list.html data="members" component="portrait" filter="role == 'pi'" %}
+
+## Postdocs
+
 {% include list.html data="members" component="portrait" filter="role == 'postdoc'" %}
+
+## PhD Students
+
 {% include list.html data="members" component="portrait" filter="role == 'phd'" %}
+
+## Postbacs
+
 {% include list.html data="members" component="portrait" filter="role == 'postbac'" %}
+
+## Research Volunteers
+
 {% include list.html data="members" component="portrait" filter="role == 'programmer'" %}
+
+## Undergraduates
+
 {% include list.html data="members" component="portrait" filter="role == 'undergrad'" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
@@ -27,6 +44,10 @@ nav:
 {% endcapture %}
 
 {% include grid.html style="square" content=content %}
+
+## High-schoolers
+
+[TBA]
 
 ## Alumni
 
