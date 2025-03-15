@@ -7,8 +7,9 @@ nav:
 
 ## <span style="font-size: 1.8em;">Easily Accessible Lab Tools</span>  
 
-<span style="font-size: 1.4em;">For those without any GitHub experience, we've developed our software into easily accessible web applications deployed using Heroku. These tools are designed to simplify data analysis without requiring software installation. Here are some of them:  
-
+<div style="font-size: 1.4em;">
+  For those without any GitHub experience, we've developed our software into easily accessible web applications deployed using Heroku. These tools are designed to simplify data analysis without requiring software installation. Here are some of them:  
+</div>
 ---
 
 ### <span style="font-size: 1.5em;">{% include icon.html icon="fa-solid fa-plug" %} XRD Comparison Tool</span>  
