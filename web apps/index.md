@@ -5,7 +5,7 @@ nav:
   tooltip: Cool stuff
 ---
 
-## <span style="font-size: 1.4em;">Easily Accessible Lab Tools</span>  
+## <span style="font-size: 1.35em;">Easily Accessible Lab Tools</span>  
 
 <p style="font-size: 1em;">
   For those without any GitHub experience, we've developed our software into easily accessible web applications deployed using Heroku. These tools are designed to simplify data analysis without requiring software installation. Here are some of them:
