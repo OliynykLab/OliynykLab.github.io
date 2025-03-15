@@ -2,6 +2,7 @@
 title: Web Apps
 nav:
   order: 6
+  tooltip: Musings and miscellany
 ---
 
 ## Easily Accessible Lab Tools  
