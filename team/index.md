@@ -25,10 +25,10 @@ nav:
 
 ## Students & Volunteers
 
-{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
-{% include list.html data="members" component="portrait" filter="role == 'postbac'" %}
-{% include list.html data="members" component="portrait" filter="role == 'programmer'" %}
-{% include list.html data="members" component="portrait" filter="role == 'undergrad'" %}
+{% include list.html data="members" component="portrait" filter="role == 'phd' and status != 'alumni'" %}
+{% include list.html data="members" component="portrait" filter="role == 'postbac' and status != 'alumni'" %}
+{% include list.html data="members" component="portrait" filter="role == 'programmer' and status != 'alumni'" %}
+{% include list.html data="members" component="portrait" filter="role == 'undergrad' and status != 'alumni'" %}
 
 ## High-schoolers
 
