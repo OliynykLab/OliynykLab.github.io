@@ -1,6 +1,6 @@
 ---
 name: Emil Jaffal
-image: images/EJ_headshot.jpeg
+image: images/members/EJ_headshot.jpeg
 role: phd
 description: PhD Student (1st Year)
 aliases:

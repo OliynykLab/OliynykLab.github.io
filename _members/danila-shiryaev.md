@@ -1,6 +1,6 @@
 ---
 name: Danila Shiryaev
-image: images/DS.jpeg
+image: images/members/DS.jpeg
 role: postbac
 description: Post-Bac
 links:

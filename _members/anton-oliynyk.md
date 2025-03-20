@@ -1,6 +1,6 @@
 ---
 name: Anton Oliynyk
-image: images/AO_headshot.jpg
+image: images/members/AO_headshot.jpg
 role: pi
 affiliation: Hunter College
 aliases:
