@@ -25,11 +25,11 @@ Here are some excellent opportunities for graduate students to secure funding fo
 - **Cost of Education Allowance**: $16,000  
 - **Duration**: 3 years of funding (~2,300 awards/year)  
 - **Obligations**: Conduct research in NSF-supported fields, report progress  
--**[More info]**(https://www.alexhunterlang.com/nsf-fellowship)
--**[2025 Award offers]**(https://www.research.gov/grfp/AwardeeList.do?method=loadAwardeeList)
--**[Previous dates]**(https://docs.google.com/spreadsheets/d/1nx-YdXJpUkvO8FvsB8hXMgIq1HViLBQ1D-9yP-Xs010/edit?gid=0#gid=0)
--**[Responses]**: Late March - early April
--**[Acceptance rate]**: ~10% 
+- **[More info]**(https://www.alexhunterlang.com/nsf-fellowship)
+- **[2025 Award offers]**(https://www.research.gov/grfp/AwardeeList.do?method=loadAwardeeList)
+- **[Previous dates]**(https://docs.google.com/spreadsheets/d/1nx-YdXJpUkvO8FvsB8hXMgIq1HViLBQ1D-9yP-Xs010/edit?gid=0#gid=0)
+- **Responses**: Late March - early April
+- **Acceptance rate**: ~10% 
 
 ### [Nuclear Energy University Program (NEUP) Fellowship](https://www.energy.gov/neup)
 - **Stipend**: $39,000/year for 3 years  
@@ -41,7 +41,7 @@ Here are some excellent opportunities for graduate students to secure funding fo
 - **Tuition and Fees**: Covered  
 - **Additional Allowances**: $1,000 academic allowance  
 - **Research**: Materials under extreme conditions is most applicable
--**[Responses]**: Late April
+- **Responses**: Late April
 
 ### [DoD National Defense Science and Engineering Graduate (NDSEG) Fellowship](https://ndseg.asee.org/)
 - **Stipend**: $43,200 annually  
@@ -50,8 +50,8 @@ Here are some excellent opportunities for graduate students to secure funding fo
 - **Research**: Defense-related fields  
 - **Required**: Attendance at NDSEG Fellows Conference  
 - **[Previous dates](https://docs.google.com/spreadsheets/d/1HHwP8Zyh8W24HRUh5WnObRExb24JhN5ZLTa7p5Q8CkI/edit?gid=0#gid=0)**: Last day for notification of award is April 9th (unconfirmed), can have updates 12/1, 2/1, 3/12, 3/15, 3/21. Usually 3/xx is a good sign.  
-- **[Responses]**: Late March  
-- **[Acceptance rate]**: ~5%
+- **Responses**: Late March  
+- **Acceptance rate**: ~5%
 
 ### [SCUREF Nuclear Nonproliferation International Safeguards (NNIS) Graduate Fellowship](https://www.scuref.org/)
 - **Stipend**: $36,000 + $800/month during practicum  
