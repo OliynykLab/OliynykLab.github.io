@@ -25,9 +25,9 @@ Here are some excellent opportunities for graduate students to secure funding fo
 - **Cost of Education Allowance**: $16,000  
 - **Duration**: 3 years of funding (~2,300 awards/year)  
 - **Obligations**: Conduct research in NSF-supported fields, report progress  
-- **[More info]**(https://www.alexhunterlang.com/nsf-fellowship)
-- **[2025 Award offers]**(https://www.research.gov/grfp/AwardeeList.do?method=loadAwardeeList)
-- **[Previous dates]**(https://docs.google.com/spreadsheets/d/1nx-YdXJpUkvO8FvsB8hXMgIq1HViLBQ1D-9yP-Xs010/edit?gid=0#gid=0)
+- **[More info](https://www.alexhunterlang.com/nsf-fellowship)**
+- **[2025 Award offers](https://www.research.gov/grfp/AwardeeList.do?method=loadAwardeeList)**
+- **[Previous dates](https://docs.google.com/spreadsheets/d/1nx-YdXJpUkvO8FvsB8hXMgIq1HViLBQ1D-9yP-Xs010/edit?gid=0#gid=0)**
 - **Responses**: Late March - early April
 - **Acceptance rate**: ~10% 
 
