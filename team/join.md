@@ -49,9 +49,9 @@ Here are some excellent opportunities for graduate students to secure funding fo
 - **Tuition and Fees**: Covered  
 - **Research**: Defense-related fields  
 - **Required**: Attendance at NDSEG Fellows Conference  
--**[Previous dates]**(https://docs.google.com/spreadsheets/d/1HHwP8Zyh8W24HRUh5WnObRExb24JhN5ZLTa7p5Q8CkI/edit?gid=0#gid=0): Last day for notification of award is April 9th (unconfirmed), can have updates 12/1, 2/1, 3/12, 3/15, 3/21. Usually 3/xx is a good sign.
--**[Responses]**: Late March
--**[Acceptance rate]**: ~5% 
+- **[Previous dates](https://docs.google.com/spreadsheets/d/1HHwP8Zyh8W24HRUh5WnObRExb24JhN5ZLTa7p5Q8CkI/edit?gid=0#gid=0)**: Last day for notification of award is April 9th (unconfirmed), can have updates 12/1, 2/1, 3/12, 3/15, 3/21. Usually 3/xx is a good sign.  
+- **[Responses]**: Late March  
+- **[Acceptance rate]**: ~5%
 
 ### [SCUREF Nuclear Nonproliferation International Safeguards (NNIS) Graduate Fellowship](https://www.scuref.org/)
 - **Stipend**: $36,000 + $800/month during practicum  
