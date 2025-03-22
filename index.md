@@ -71,7 +71,7 @@ Our lab consists of mostly undergraduates, a PhD student, a post-doc and some wo
 
 {%
   include feature.html
-  image="images/yanks.jpg"
+  image="images/Untitled-1.png"
   link="team"
   title="Our Team"
   text=text
