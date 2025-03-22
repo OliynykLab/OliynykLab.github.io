@@ -11,6 +11,8 @@ nav:
 
 ## Highlighted
 
+Most of our  work should be accessible on an Open Access basis. However, if you cannot locate a specific manuscript online, please feel free to contact us!
+
 {% include citation.html lookup="cifkit" style="rich" %}
 
 {% include section.html %}
