@@ -12,22 +12,30 @@ nav:
 </p>
 ---
 
-### <span style="font-size: 1.2em;">{% include icon.html icon="fa-solid fa-plug" %} XRD Comparison Tool</span>  
+### <span style="font-size: 1.2em;">{% include icon.html icon="fa-solid fa-plug" %} XRD Comparer</span>  
 
 <span style="font-size: 1em; font-weight: bold;">Description:</span> <span style="font-size: 1em;">The XRD Comparison Tool allows users to compare multiple `.xy` files from X-ray diffraction (XRD) experiments. It helps in identifying impurities, phase matching, and visualizing differences in XRD patterns with ease.</span>  
 
 <div style="text-align: center;">
   <a href="https://xrd-tool-785a7687ee07.herokuapp.com" target="_blank">
     <button style="padding: 15px 32px; font-size: 18px; background-color: #4CAF50; color: white; border: none; border-radius: 8px; cursor: pointer;">
-      Access the XRD Comparison Tool here!
+      Access the XRD Comparer here!
     </button>
   </a>
 </div>  
 
 ---
 
-### <span style="font-size: 1.2em;">{% include icon.html icon="fa-solid fa-plug" %} XRD Pattern Matcher</span>  
+### <span style="font-size: 1.2em;">{% include icon.html icon="fa-solid fa-plug" %} XRD Matcher</span>  
 
-<span style="font-size: 1em; font-weight: bold;">Description:</span> <span style="font-size: 1em;">*Currently in development!* The XRD Pattern Matcher will enable users to compare experimental `.xy` files with `.cif` crystal structure files. This tool aims to assist in phase identification by matching diffraction patterns to known structures, helping streamline material characterization.</span>  
+<span style="font-size: 1em; font-weight: bold;">Description:</span> <span style="font-size: 1em;">The XRD Pattern Matcher will enable users to compare experimental `.xy` files with `.cif` crystal structure files. This tool aims to assist in phase identification by matching diffraction patterns to known structures, helping streamline material characterization.</span>  
+
+<div style="text-align: center;">
+  <a href="https://xrd-match-d2aa2e5815b7.herokuapp.com" target="_blank">
+    <button style="padding: 15px 32px; font-size: 18px; background-color: #4CAF50; color: white; border: none; border-radius: 8px; cursor: pointer;">
+      Access the XRD Matcher here!
+    </button>
+  </a>
+</div>  
 
 {% include section.html %}
