@@ -14,6 +14,9 @@ nav:
 
 ### <span style="font-size: 1.2em;">{% include icon.html icon="fa-solid fa-plug" %} XRD Comparer</span>  
 
+<p style="font-size: 1em; font-style: italic;">By Danila and Emil</p>
+
+
 <span style="font-size: 1em; font-weight: bold;">Description:</span> <span style="font-size: 1em;">The XRD Comparison Tool allows users to compare multiple `.xy` files from X-ray diffraction (XRD) experiments. It helps in identifying impurities, phase matching, and visualizing differences in XRD patterns with ease.</span>  
 
 <div style="text-align: center;">
@@ -27,6 +30,8 @@ nav:
 ---
 
 ### <span style="font-size: 1.2em;">{% include icon.html icon="fa-solid fa-plug" %} XRD Matcher</span>  
+
+<p style="font-size: 0.8em; font-style: italic;">By Riya, Danila and Emil</p>
 
 <span style="font-size: 1em; font-weight: bold;">Description:</span> <span style="font-size: 1em;">The XRD Pattern Matcher will enable users to compare experimental `.xy` files with `.cif` crystal structure files. This tool aims to assist in phase identification by matching diffraction patterns to known structures, helping streamline material characterization.</span>  
 
