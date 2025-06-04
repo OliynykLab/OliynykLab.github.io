@@ -2,6 +2,7 @@
 name: Natalia Poznyakova
 image: images/members/NP.png
 role: undergrad
+status: alumni
 description: Undergraduate Student
 links:
 ---
