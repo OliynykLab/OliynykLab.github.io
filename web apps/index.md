@@ -31,6 +31,22 @@ nav:
 
 ---
 
+### <span style="font-size: 1.2em;">{% include icon.html icon="fa-solid fa-plug" %} COHP/COOP GUI Plotter</span>  
+
+<p style="font-size: 1em; font-style: italic;">By Emil</p>
+
+<span style="font-size: 1em; font-weight: bold;">Description:</span> <span style="font-size: 1em;">The COHP/COOP GUI Plotter is a Python-based web application for interactive visualization of chemical bonding data from LOBSTER. It supports plotting <b>COHP</b> (Crystal Orbital Hamilton Population) and <b>COOP</b> (Crystal Orbital Overlap Population) data from <code>COHPCAR.lobster</code> and <code>COOPCAR.lobster</code> files respectively. Designed with a user-friendly GUI using Plotly and Dash, it allows researchers to analyze bonding interactions, customize graph settings, and export publication-quality plots.</span>  
+
+<div style="text-align: center;">
+  <a href="https://cohp-coop-gui-1de5a0643ceb.herokuapp.com" target="_blank">
+    <button style="padding: 15px 32px; font-size: 18px; background-color: #4CAF50; color: white; border: none; border-radius: 8px; cursor: pointer;">
+      Access the COHP/COOP Plotter here!
+    </button>
+  </a>
+</div>  
+
+---
+
 ### <span style="font-size: 1.2em;">{% include icon.html icon="fa-solid fa-plug" %} DOSCAR Plotter</span>  
 
 <p style="font-size: 1em; font-style: italic;">By Emil</p>
