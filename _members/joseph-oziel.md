@@ -1,8 +1,8 @@
 ---
 name: Jospeh Oziel
 image: images/photo.jpg
-role: Research Volunteer
-description: Highschooler
+role: Highschooler
+description: Research Volunteer
 links:
 ---
 

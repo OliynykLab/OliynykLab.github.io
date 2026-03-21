@@ -35,7 +35,7 @@ nav:
 
 ## High-schoolers
 
-{% include list.html data="members" component="portrait" filter="description == 'Highschooler' and status != 'alumni'" %}
+{% include list.html data="members" component="portrait" filter="role == 'Highschooler' and status != 'alumni'" %}
 
 {% capture content %}
 
