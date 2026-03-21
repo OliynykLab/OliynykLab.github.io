@@ -5,7 +5,7 @@ role: phd
 description: PhD Student (2nd Year)
 aliases:
   - E. Jaffal
-  - Emil I. Jaffal
+  - Emil Jaffal
   - E.I. Jaffal
 links:
   github: emiljaffal
