@@ -2,7 +2,7 @@
 name: Emil I. Jaffal
 image: images/members/EJ_headshot.jpeg
 role: phd
-description: PhD Student (1st Year)
+description: PhD Student (2nd Year)
 aliases:
   - E. Jaffal
   - Emil I. Jaffal
@@ -14,4 +14,4 @@ links:
   linkedin: https://www.linkedin.com/in/emil-jaffal/
 ---
 
-Hi! I'm a PhD student at CUNY in NYC. My research interests are pretty broad, but revolve around using computational methods to explore novel materials and chemistries coupled with experimental validation, although I'm a bench chemist at heart. In my free time I like baking, making new coffee recipes and powerlifting!
+Our research focuses the majority of the periodic table and especially rare-earth elements, with every model (if not most) we develop being experimentally validated. I was a research chemist for the applications group at ICL. I made foam and burned it. In my free time I like baking, making new coffee recipes and powerlifting! I'm also working on a startup.
