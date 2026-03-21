@@ -2,6 +2,7 @@
 name: Riya Upadhyay
 image: images/members/RU.png
 role: postbac
+status: alumni
 description: Research Volunteer
 links:
 ---

@@ -1,5 +1,5 @@
 ---
-name: Emil Jaffal
+name: Emil I. Jaffal
 image: images/members/EJ_headshot.jpeg
 role: phd
 description: PhD Student (1st Year)

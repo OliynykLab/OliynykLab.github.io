@@ -1,6 +1,6 @@
 ---
 ---
-In our lab, we explore intermetallics—compounds where metals and metalloids intersect. Our mission? To discover novel compounds, unravel their crystal structures, and see just how far these materials can go. By combining cutting-edge syntheses, characterization, and machine learning, we're pushing the boundaries of materials science, one intermetallic at a time.
+In our lab, we explore intermetallics—compounds where metals and metalloids intersect. We discover novel compounds, investigate their crystal structures, as well as collaborate with other groups to look into their properties. By combining syntheses, characterization, DFT, and machine learning, we pushing the boundaries of materials science, one intermetallic at a time.
 
 <div align="center">
   <img src="/animation0000.gif" alt="Lab Animation" width="500"/>
@@ -11,8 +11,6 @@ In our lab, we explore intermetallics—compounds where metals and metalloids in
 ## Highlights
 
 {% capture text %}
-
-Our research is special in the sense that we do exploratory synthesis, trying to learn about structure-property relationships of various compositions and crystal systems. Many of these properties are valuable, such as superconductivity and neutron absorption therefore can afford benefits to society.
 
 {%
   include button.html

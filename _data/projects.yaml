@@ -113,3 +113,11 @@
   repo: greenelab/website
   tags:
     - software
+
+- title: Structure Type Clustering
+  subtitle: by Bala
+  group: structure exploration
+  link: https://github.com/balaranjan/structure_type_clustering
+  description: Unified Python script for structural analysis and hierarchical clustering on CIF files. Extracts d/d_min normalized interatomic distance features from atomic structures and clusters similar structures together.
+  tags:
+    - software

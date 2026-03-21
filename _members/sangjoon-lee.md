@@ -3,6 +3,7 @@ name: Bob (Sangjoon) Lee
 image: images/members/SL.jpg
 role: programmer
 description: Research Volunteer
+status: alumni
 links:
 website: https://bobleesj.github.io
 github: https://github.com/bobleesj
