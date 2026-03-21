@@ -23,18 +23,19 @@ nav:
 
 {% include list.html data="members" component="portrait" filter="role == 'postdoc'" %}
 
-## Students & Volunteers
+## PhD Students
 
 {% include list.html data="members" component="portrait" filter="role == 'phd' and status != 'alumni'" %}
+
+## Students & Volunteers
+
 {% include list.html data="members" component="portrait" filter="role == 'postbac' and status != 'alumni'" %}
 {% include list.html data="members" component="portrait" filter="role == 'programmer' and status != 'alumni'" %}
 {% include list.html data="members" component="portrait" filter="role == 'undergrad' and status != 'alumni'" %}
 
 ## High-schoolers
 
-[TBA]
-
-{% include section.html background="images/background.jpg" dark=true %}
+{% include list.html data="members" component="portrait" filter="description == 'Highschooler' and status != 'alumni'" %}
 
 {% capture content %}
 
