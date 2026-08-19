@@ -103,14 +103,12 @@ $wrap: 800px;
 
 .citation-figure-grid {
   display: grid;
-  max-width: 960px;
   margin: 0 auto;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
 }
 
 .citation-figure-count-1 {
-  max-width: 760px;
   grid-template-columns: minmax(0, 1fr);
 }
 
@@ -118,18 +116,14 @@ $wrap: 800px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: min(360px, 38vw);
-  min-height: 200px;
-  overflow: hidden;
+  width: 100%;
   border-radius: calc(var(--rounded) / 2);
-  background: var(--light-gray);
 }
 
 .citation-figure-link img {
   display: block;
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  height: auto;
 }
 
 .citation-figure-caption {
