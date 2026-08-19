@@ -172,7 +172,7 @@ for index, source in enumerate(sources):
 
 log()
 
-log("Removing ChemRxiv works with journal versions")
+log("Removing preprints with journal versions")
 
 
 def normalize_title(value):
@@ -181,17 +181,18 @@ def normalize_title(value):
     return re.sub(r"[^a-z0-9]+", " ", value).strip()
 
 
-def is_chemrxiv(citation):
-    return "chemrxiv" in get_safe(citation, "id", "").lower()
+def is_preprint(citation):
+    identifier = get_safe(citation, "id", "").lower()
+    return "chemrxiv" in identifier or "zenodo" in identifier
 
 
-# ORCID commonly lists a ChemRxiv preprint separately from its journal article.
-# Hide the preprint when their titles are a close match, while retaining preprints
-# that do not yet have a published version.
-published = [citation for citation in citations if not is_chemrxiv(citation)]
+# ORCID can list ChemRxiv and Zenodo records separately from a journal article.
+# Hide a preprint when its title closely matches a published version, while
+# retaining preprints that do not yet have a journal version.
+published = [citation for citation in citations if not is_preprint(citation)]
 filtered_citations = []
 for citation in citations:
-    if not is_chemrxiv(citation):
+    if not is_preprint(citation):
         filtered_citations.append(citation)
         continue
 
