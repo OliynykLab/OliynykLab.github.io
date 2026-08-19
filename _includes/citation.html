@@ -49,7 +49,15 @@
         </span>
         &nbsp;·&nbsp;
         <span class="citation-date">
-          {{- citation.date | default: "[no date info]" | date: "%d %b %Y" -}}
+          {% if citation.date_display %}
+            {{- citation.date_display -}}
+          {% elsif citation.year %}
+            {{- citation.year -}}
+          {% elsif citation.date %}
+            {{- citation.date | date: "%d %b %Y" -}}
+          {% else %}
+            [no date info]
+          {% endif %}
         </span>
         &nbsp;·&nbsp;
         <span class="citation-id">

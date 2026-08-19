@@ -1,4 +1,5 @@
 import json
+import calendar
 from urllib.request import Request, urlopen
 from util import *
 
@@ -72,15 +73,21 @@ def main(entry):
         link = first(lambda s: get_safe(s, "url.value", ""))
         publication_date = first(lambda s: get_safe(s, "publication-date", {})) or {}
         year = get_safe(publication_date, "year.value", "")
-        month = get_safe(publication_date, "month.value", "01")
-        day = get_safe(publication_date, "day.value", "01")
+        month = get_safe(publication_date, "month.value", "")
+        day = get_safe(publication_date, "day.value", "")
 
         if title:
             source["title"] = title
         if publisher:
             source["publisher"] = publisher
-        if year:
+        if year and month and day:
             source["date"] = f"{year}-{str(month).zfill(2)}-{str(day).zfill(2)}"
+        elif year and month:
+            source["date"] = f"{year}-{str(month).zfill(2)}-01"
+            source["date_display"] = f"{calendar.month_name[int(month)]} {year}"
+        elif year:
+            source["date"] = f"{year}-01-01"
+            source["year"] = str(year)
         if link:
             source["link"] = link
         elif id_type == "doi" and id_value:
