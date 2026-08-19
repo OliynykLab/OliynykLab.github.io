@@ -3,6 +3,9 @@ cite process to convert sources and metasources into full citations
 """
 
 import traceback
+import html
+import re
+from difflib import SequenceMatcher
 from importlib import import_module
 from pathlib import Path
 from dotenv import load_dotenv
@@ -168,6 +171,54 @@ for index, source in enumerate(sources):
 
 
 log()
+
+log("Removing ChemRxiv works with journal versions")
+
+
+def normalize_title(value):
+    """Normalize titles so preprints can be matched to published versions."""
+    value = re.sub(r"<[^>]+>", "", html.unescape(value or "")).lower()
+    return re.sub(r"[^a-z0-9]+", " ", value).strip()
+
+
+def is_chemrxiv(citation):
+    return "chemrxiv" in get_safe(citation, "id", "").lower()
+
+
+# ORCID commonly lists a ChemRxiv preprint separately from its journal article.
+# Hide the preprint when their titles are a close match, while retaining preprints
+# that do not yet have a published version.
+published = [citation for citation in citations if not is_chemrxiv(citation)]
+filtered_citations = []
+for citation in citations:
+    if not is_chemrxiv(citation):
+        filtered_citations.append(citation)
+        continue
+
+    title = normalize_title(get_safe(citation, "title", ""))
+    journal_version = next(
+        (
+            other
+            for other in published
+            if SequenceMatcher(
+                None, title, normalize_title(get_safe(other, "title", ""))
+            ).ratio()
+            >= 0.8
+        ),
+        None,
+    )
+
+    if journal_version:
+        log(
+            f"Hiding {get_safe(citation, 'id')} in favor of "
+            f"{get_safe(journal_version, 'id')}",
+            1,
+        )
+    else:
+        filtered_citations.append(citation)
+
+citations = filtered_citations
+
 
 log("Saving updated citations")
 

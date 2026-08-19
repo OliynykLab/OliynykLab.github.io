@@ -1,7 +1,7 @@
 # Figures and captions imported from Publications 1.docx.
 # Keys correspond to generated citation identifiers; this file survives citation refreshes.
 
-doi:10.26434/chemrxiv.15001280/v2:
+doi:10.1039/D6DD00132G:
   images:
   - images/publications/78/figure-1.png
   - images/publications/78/figure-2.png
@@ -28,7 +28,7 @@ doi:10.1016/J.SSC.2025.116250:
   - images/publications/73/figure-1.jpeg
   - images/publications/73/figure-2.jpeg
   caption: Mechanical property optimization was done with modification of microstructure through two-phase sample preparation.  Solid solution occurring through accommodation of additional Fe was evaluated with the most appropriate site estimation and explained through electronic structure
-doi:10.26434/CHEMRXIV-2025-8537P:
+doi:10.1021/JACS.5C11646:
   images:
   - images/publications/72/figure-1.png
   - images/publications/72/figure-2.png
@@ -45,11 +45,11 @@ doi:10.1021/ACS.JCHEMED.5C00723:
   - images/publications/70/figure-1.png
   - images/publications/70/figure-2.png
   caption: Bringing our machine learning experience to classrooms to teach students how to apply simple machine learning models to solve chemical problems.  In this activity, students try to help Linus Pauling from 1929 to re-invent the radius ratio rules or propose a better solution to the classification problem with the wealth of the available data
-doi:10.26434/CHEMRXIV-2025-V32QR-V2:
+doi:10.1007/S40192-025-00400-X:
   images:
   - images/publications/69/figure-1.png
   caption: Materials Informatics tools can be helpful in cases when DFT has limitations (highly correlated electron systems and site deficiency/mixing).  Additionally, it helps to visualize crystallographic data in a high-throughput way, revealing bonding patterns to explain chemistries.  For instance, the series of RE-containing intermetallics can begin or end abruptly, to explain this phenomenon we propose to visualize the bonding preference within the systems
-doi:10.26434/CHEMRXIV-2025-CC0DQ:
+doi:10.1021/JACS.5C03510:
   images:
   - images/publications/68/figure-1.png
   - images/publications/68/figure-2.png
@@ -115,7 +115,7 @@ doi:10.1021/ACS.JCHEMED.2C00086:
   images:
   - images/publications/54/figure-1.png
   caption: Workshop connecting environmental science topics and green chemistry principles for undergraduate students
-doi:10.26434/CHEMRXIV-2021-3VQ3N:
+doi:10.1021/ACS.CHEMMATER.1C03501:
   images:
   - images/publications/53/figure-1.png
   - images/publications/53/figure-2.png
@@ -245,7 +245,7 @@ doi:10.1021/ACS.CHEMMATER.9B02596:
   - images/publications/25/figure-1.png
   - images/publications/25/figure-2.png
   caption: Atomic substitutions to balance structural material performance with taking into consideration sustainability and economic factors
-doi:10.26434/chemrxiv.7580021.v1:
+doi:10.1021/ACS.INORGCHEM.9B00344:
   images:
   - images/publications/24/figure-1.png
   - images/publications/24/figure-2.png

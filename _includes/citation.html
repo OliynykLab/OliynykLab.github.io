@@ -94,22 +94,28 @@
   {% assign figure_data = site.data.publication_figures[citation.id] %}
   {% if figure_data %}
     <section class="citation-figures" aria-label="Publication figures">
-      <div class="citation-figure-grid">
-        {% for image in figure_data.images %}
-          <a href="{{ image | relative_url | uri_escape }}" class="citation-figure-link">
-            <img
-              src="{{ image | relative_url | uri_escape }}"
-              alt="Figure {{ forloop.index }} for {{ citation.title | regex_strip }}"
-              loading="lazy"
-              {% include fallback.html %}
-            >
-          </a>
-        {% endfor %}
+      <div class="citation-figure-controls">
+        <button type="button" class="citation-figure-arrow" data-gallery-direction="-1" aria-label="Previous figures">‹</button>
+        <div class="citation-figure-viewport" data-gallery-viewport>
+          <div class="citation-figure-track">
+            {% for image in figure_data.images %}
+              <a href="{{ image | relative_url | uri_escape }}" class="citation-figure-link">
+                <img
+                  src="{{ image | relative_url | uri_escape }}"
+                  alt="Figure {{ forloop.index }} for {{ citation.title | regex_strip }}"
+                  loading="lazy"
+                  {% include fallback.html %}
+                >
+              </a>
+            {% endfor %}
+          </div>
+        </div>
+        <button type="button" class="citation-figure-arrow" data-gallery-direction="1" aria-label="Next figures">›</button>
       </div>
 
       {% if figure_data.caption %}
         <p class="citation-figure-caption">
-          {{ figure_data.caption | markdownify | remove: "<p>" | remove: "</p>" }}
+          <em>{{ figure_data.caption | markdownify | remove: "<p>" | remove: "</p>" }}</em>
         </p>
       {% endif %}
     </section>
