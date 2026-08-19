@@ -5,11 +5,56 @@
   | data_filter: include.filter
 %}
 
-{% assign years = data
-  | group_by_exp: "d", "d.date | date: '%Y'"
-  | sort: "name"
-  | reverse
-%}
+{% if include.group_by_year == false %}
+  {% assign data = data | sort: "date" | reverse %}
+
+  {% for d in data %}
+    {% assign style = d.style | default: include.style %}
+    {% assign number = data.size | minus: forloop.index0 %}
+
+    {%
+      include {{ include.component | append: ".html" }}
+      affiliation=d.affiliation
+      author=d.author
+      authors=d.authors
+      buttons=d.buttons
+      caption=d.caption
+      content=d.content
+      date=d.date
+      date_display=d.date_display
+      description=d.description
+      excerpt=d.excerpt
+      height=d.height
+      icon=d.icon
+      id=d.id
+      image=d.image
+      last_modified_at=d.last_modified_at
+      link=d.link
+      lookup=d.lookup
+      name=d.name
+      number=number
+      publisher=d.publisher
+      repo=d.repo
+      role=d.role
+      slug=d.slug
+      style=style
+      subtitle=d.subtitle
+      tags=d.tags
+      text=d.text
+      title=d.title
+      tooltip=d.tooltip
+      type=d.type
+      url=d.url
+      width=d.width
+      year=d.year
+    %}
+  {% endfor %}
+{% else %}
+  {% assign years = data
+    | group_by_exp: "d", "d.date | date: '%Y'"
+    | sort: "name"
+    | reverse
+  %}
 
 {% for year in years %}
   {% assign data = year.items %}
@@ -59,3 +104,4 @@
     %}
   {% endfor %}
 {% endfor %}
+{% endif %}

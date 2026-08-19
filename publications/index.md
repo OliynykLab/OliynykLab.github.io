@@ -25,4 +25,4 @@ Much of our work should be accessible on an open-access basis. However, if you c
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+{% include list.html data="citations" component="citation" style="rich" group_by_year=false numbered=true %}
