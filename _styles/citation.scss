@@ -85,6 +85,44 @@ $wrap: 800px;
   margin: 0;
 }
 
+.citation-figures {
+  margin: -10px 20px 30px;
+  padding: 20px;
+  border-radius: var(--rounded);
+  background: var(--background);
+  box-shadow: var(--shadow);
+}
+
+.citation-figure-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.citation-figure-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 180px;
+  overflow: hidden;
+  border-radius: calc(var(--rounded) / 2);
+  background: var(--light-gray);
+}
+
+.citation-figure-link img {
+  display: block;
+  width: 100%;
+  max-height: 360px;
+  object-fit: contain;
+}
+
+.citation-figure-caption {
+  margin: 16px 0 0;
+  color: var(--gray);
+  font-style: italic;
+  text-align: center;
+}
+
 .citation-text > .tags {
   display: inline-flex;
   justify-content: flex-start;
@@ -99,5 +137,10 @@ $wrap: 800px;
   .citation-image {
     width: unset;
     height: $thumb-size;
+  }
+
+  .citation-figures {
+    margin-right: 0;
+    margin-left: 0;
   }
 }

@@ -1,0 +1,351 @@
+# Figures and captions imported from Publications 1.docx.
+# Keys correspond to generated citation identifiers; this file survives citation refreshes.
+
+doi:10.26434/chemrxiv.15001280/v2:
+  images:
+  - images/publications/78/figure-1.png
+  - images/publications/78/figure-2.png
+  caption: Review of the recent (up to 2026) machine learning works, which resulted in experimental discoveries; Explanation of the discovery paradigm, which includes physical knowledge extraction in its core
+doi:10.1021/acs.inorgchem.5c05813:
+  images:
+  - images/publications/76/figure-1.png
+  - images/publications/76/figure-2.png
+  caption: Simple classification models helps to identify the parameters, which influence the formation of complex intermetallics; This helps to construct structure diagrams and propose the mechanism for the phase formation
+doi:10.1021/ACS.INORGCHEM.5C04639:
+  images:
+  - images/publications/75/figure-1.png
+  - images/publications/75/figure-2.png
+  - images/publications/75/figure-3.png
+  caption: Novel quaternary intermetallics were prepared.  To explain their structure DFT calculations were employed as well as the neighbour environment clustering, which helps to construct structure diagrams
+doi:10.1021/ACS.CHEMMATER.5C03286:
+  images:
+  - images/publications/74/figure-1.png
+  - images/publications/74/figure-2.png
+  - images/publications/74/figure-3.png
+  caption: The structure of novel RE11Rh4In9 intermetallics was visualized with CsCl- and AlB2-fragments.  We developed a web application which allows used to quickly evaluate the structure and compose a connectivity diagram revealing the proximity of structures built based on similar fragments.  RE11Rh4In9 features orbital competition resulting in entropy engineering, which highlights competitive magnetocaloric performance of these materials
+doi:10.1016/J.SSC.2025.116250:
+  images:
+  - images/publications/73/figure-1.jpeg
+  - images/publications/73/figure-2.jpeg
+  caption: Mechanical property optimization was done with modification of microstructure through two-phase sample preparation.  Solid solution occurring through accommodation of additional Fe was evaluated with the most appropriate site estimation and explained through electronic structure
+doi:10.26434/CHEMRXIV-2025-8537P:
+  images:
+  - images/publications/72/figure-1.png
+  - images/publications/72/figure-2.png
+  - images/publications/72/figure-3.png
+  - images/publications/72/figure-4.png
+  caption: We developed a recommendation engine to predict the best candidate to expand structure type series.  To validate it, we target material with the Gd- and Cd-rich composition, which results in outstanding neutron absorber material Gd10RuCd3
+doi:10.1016/J.DIB.2025.112138:
+  images:
+  - images/publications/71/figure-1.jpeg
+  - images/publications/71/figure-2.jpeg
+  caption: A large portion of crystallographic databases are structures composed of flat atomic layers.  These structures are easy to visualize with the space-filling prism stacking.  We developed an online-application which allows you to visualize the prism stacking instantly from your CIF files.
+doi:10.1021/ACS.JCHEMED.5C00723:
+  images:
+  - images/publications/70/figure-1.png
+  - images/publications/70/figure-2.png
+  caption: Bringing our machine learning experience to classrooms to teach students how to apply simple machine learning models to solve chemical problems.  In this activity, students try to help Linus Pauling from 1929 to re-invent the radius ratio rules or propose a better solution to the classification problem with the wealth of the available data
+doi:10.26434/CHEMRXIV-2025-V32QR-V2:
+  images:
+  - images/publications/69/figure-1.png
+  caption: Materials Informatics tools can be helpful in cases when DFT has limitations (highly correlated electron systems and site deficiency/mixing).  Additionally, it helps to visualize crystallographic data in a high-throughput way, revealing bonding patterns to explain chemistries.  For instance, the series of RE-containing intermetallics can begin or end abruptly, to explain this phenomenon we propose to visualize the bonding preference within the systems
+doi:10.26434/CHEMRXIV-2025-CC0DQ:
+  images:
+  - images/publications/68/figure-1.png
+  - images/publications/68/figure-2.png
+  - images/publications/68/figure-3.png
+  caption: This is the first time unsupervised machine learning method was applied to discover a novel material.  The biggest advantage of unsupervised methods is the suggestion of counterintuitive candidates, which otherwise would never be realized in the lab.  Here we made a new polymorph modification of TbIr3 to experimentally validate the method
+doi:10.1088/2515-7655/ADBA87:
+  images:
+  - images/publications/67/figure-1.jpeg
+  - images/publications/67/figure-2.jpeg
+  - images/publications/67/figure-3.jpeg
+  caption: This perspective underscores and examines recent advancements and approaches from the materials community in artificial intelligence to address the challenges in the thermoelectric area. It explores the possibility for these advancements to surpass existing limitations.
+doi:10.1021/ACSAMI.4C19149:
+  images:
+  - images/publications/66/figure-1.png
+  - images/publications/66/figure-2.png
+  caption: Prediction of the figure of merit of thermoelectrics is a challenge as there are a few complex phenomena happening at the same time.  Using an experimental data set, our study is one of the few examples that predict a complex zT property directly across the entire gamut of TE materials.
+doi:10.1039/D4DD00332B:
+  images:
+  - images/publications/65/figure-1.png
+  - images/publications/65/figure-2.png
+  - images/publications/65/figure-3.png
+  caption: We evaluate available features for the problems in materials science and test them for a classification problem to conclude the effectiveness of the class separation based on the features, not the model.  The newly-developed CAF and SAF features overperform the competitors’ features
+doi:10.21105/joss.07205:
+  images:
+  - images/publications/64/figure-1.png
+  caption: cifkit is a Python library to process crystallographic data and calculate structural features, essential for effective machine learning models
+doi:10.1021/ACS.CHEMMATER.4C01696:
+  images:
+  - images/publications/63/figure-1.png
+  - images/publications/63/figure-2.png
+  caption: Developed interpretable methodology produces the prediction of thermal conductivity of a large variety of materials through the influence of chemical and physical property features.  We looked at various experimental datasets and evaluate their fit to the model.  Extracted chemical parameters from the model generate accessible knowledge behind the phenomenon
+doi:10.1016/J.DIB.2024.110178:
+  images:
+  - images/publications/62/figure-1.jpeg
+  caption: Good quality descriptors are essential for effective machine learning models.  We compile a table of descriptors used in various experimentally validated predictions.  Any missing values were interpolated and extrapolated with GPR predictions
+doi:10.1016/J.JALLCOM.2023.173241:
+  images:
+  - images/publications/61/figure-1.jpeg
+  - images/publications/61/figure-2.jpeg
+  caption: A large RE23Co7In20 ternary intermetallic structure is composed of CsCl- and AlB2-type fragment, featuring a diverse In-In bonding interaction, which open many more structural possibilities for novel structures in the RE–M–In ternary systems
+doi:10.1039/D3CP04017H:
+  images:
+  - images/publications/60/figure-1.png
+  caption: Machine learning model was built to thermal expansion coefficient for perovskite oxide materials
+doi:10.1039/D3TC01450A:
+  images:
+  - images/publications/59/figure-1.png
+  - images/publications/59/figure-2.png
+  caption: Machine learning prediction of materials with ultra-low thermal conductivity (essential for high-performance thermoelectric materials) and successful experimental validation with doped SnSe materials
+doi:10.1021/ACS.INORGCHEM.3C01153:
+  images:
+  - images/publications/58/figure-1.png
+  caption: Comparison of the classification models evaluated through domain overlap and decision tree as scoring functions to select descriptors by SISSO
+doi:10.26434/CHEMRXIV-2023-0NLZL:
+  images:
+  - images/publications/57/figure-1.png
+  caption: The property list that was features on numerous of our experimentally validated machine learning studies.  For your convenience and accessibility, the list available as SI on this ChemRxiv submission
+doi:10.1021/ACS.CHEMMATER.2C02425:
+  images:
+  - images/publications/56/figure-1.png
+  caption: Solving very complex structural challenges with machine learning tools, followed by experimental validation.  Application of Sure-Independence Screening and Sparsifying Operator to extract compact and informative features
+doi:10.1021/ACS.JCHEMED.2C00086:
+  images:
+  - images/publications/54/figure-1.png
+  caption: Workshop connecting environmental science topics and green chemistry principles for undergraduate students
+doi:10.26434/CHEMRXIV-2021-3VQ3N:
+  images:
+  - images/publications/53/figure-1.png
+  - images/publications/53/figure-2.png
+  - images/publications/53/figure-3.png
+  caption: Synchrotron diffraction experiments are performed on Mo2–xWxBC solid solutions; observations align with previously reported computational results and will inform future efforts to design sustainable materials with exceptional mechanical properties
+doi:10.1021/ACS.INORGCHEM.1C02486:
+  images:
+  - images/publications/52/figure-1.png
+  - images/publications/52/figure-2.png
+  - images/publications/52/figure-3.png
+  caption: Experimental structure ambiguity could be resolved with the help from DFT approaches
+doi:10.1016/J.COMMATSCI.2021.110452:
+  images:
+  - images/publications/51/figure-1.png
+  caption: Special issue on machine learning and data-driven design of materials issue in computational materials science
+doi:10.1016/J.JSSC.2021.122585:
+  images:
+  - images/publications/50/figure-1.png
+  - images/publications/50/figure-2.jpeg
+  - images/publications/50/figure-3.jpeg
+  caption: Complex phase equilibria in ternary Ce–Rh–Ge phase diagram and three novel phases with their structures discussed
+doi:10.1002/ADMA.202005112:
+  images:
+  - images/publications/48/figure-1.jpeg
+  - images/publications/48/figure-2.jpeg
+  caption: Ensemble learning creates an advantage in a high-throughput screening for a material with a specific property; in this case the next generation of superhard materials is taken as an example
+ppr:PPR159189:
+  images:
+  - images/publications/47/figure-1.png
+  caption: The key components of a successful machine learning study in the materials domain; helpful protocols and best practices
+doi:10.1021/ACS.CGD.0C00646:
+  images:
+  - images/publications/46/figure-1.png
+  caption: The importance of the balanced datasets (and the ways to improve it) for machine learning models to predict and synthesize novel intermetallics from the Heusler family
+doi:10.1016/J.JSSC.2020.121703:
+  images:
+  - images/publications/45/figure-1.jpeg
+  - images/publications/45/figure-2.jpeg
+  - images/publications/45/figure-3.jpeg
+  caption: Study of the chemistry behind colored intermetallics and how to shift the color with structural changes
+doi:10.1021/ACS.EST.0C05861:
+  images:
+  - images/publications/44/figure-1.png
+  caption: Photochemistry of atmospheric dust is both richer and more complex than previously considered
+ppr:PPR113355:
+  images:
+  - images/publications/43/figure-1.png
+  caption: Essential structural insight into the correlation between the dimensions and PL maximum of SiQDs through a direct comparison of samples that exhibit statistically identical physical dimensions (dTEM) and chemical compositions but different crystallite size (dXRD) and PL maxima
+doi:10.1021/JACS.0C02198:
+  images:
+  - images/publications/42/figure-1.png
+  - images/publications/42/figure-2.png
+  caption: This work provides an advance in understanding the photophysical properties that correlate long- to short-range structural elucidation of these newly developed solid-state white-light emitting materials
+doi:10.1146/ANNUREV-MATSCI-090319-010954:
+  images:
+  - images/publications/41/figure-1.png
+  caption: An important review on the experimentally validated ML works in the domain of materials chemistry (up to year 2020); discussion on augmenting expertise and the problems with extrapolation in ML method
+doi:10.1039/C9NR10837H:
+  images:
+  - images/publications/40/figure-1.png
+  caption: Surface functionalization is an essential aspect of nanoparticle design and preparation; it can impart stability, processability, functionality, as well as tailor optoelectronic properties that facilitate future applications
+doi:10.1021/ACS.CHEMMATER.9B03854:
+  images:
+  - images/publications/39/figure-1.png
+  caption: While scientists tend to shy away from using the expression “paradigm shift” due to overuse, data-driven science could actually be the real deal; data-driven science has been termed the fourth paradigm shift after empirical science (the first), model-based theoretical science (the second), and computational science (the third)
+doi:10.1021/ACSAMI.9B11004:
+  images:
+  - images/publications/38/figure-1.png
+  - images/publications/38/figure-2.png
+  caption: An innovative application of metal–organic frameworks (MOFs) is in biomedical materials
+doi:10.1016/J.JSSC.2019.120914:
+  images:
+  - images/publications/37/figure-1.jpeg
+  - images/publications/37/figure-2.jpeg
+  caption: Four novel quaternary rare-earth sulfides, their structure and properties
+doi:10.1021/ACS.INORGCHEM.9B00987:
+  images:
+  - images/publications/36/figure-1.png
+  - images/publications/36/figure-2.png
+  caption: Machine learning helps to identify incorrect literature structure reports and correct them.  Subsequent DFT and experimental validation emphasizes the importance of ML for lab discoveries
+doi:10.1021/ACSEARTHSPACECHEM.8B00178:
+  images:
+  - images/publications/35/figure-1.png
+  caption: Study of the role of mineral–organic interactions in atmospheric organosulfate formation
+doi:10.1016/J.JSSC.2019.03.034:
+  images:
+  - images/publications/34/figure-1.jpeg
+  - images/publications/34/figure-2.jpeg
+  caption: Synthesis, structure, and properties of novel rare-earth germanium sulfide iodides RE3Ge2S8I
+doi:10.1021/ACS.CHEMMATER.8B03074:
+  images:
+  - images/publications/33/figure-1.png
+  - images/publications/33/figure-2.png
+  caption: Crystallinity of Si nanoparticles evaluated with various techniques; Si nanoparticles consist of crystalline core and surface with the relative proportions changing based on the nanoparticle size
+doi:10.1038/S41598-018-35674-Z:
+  images:
+  - images/publications/32/figure-1.png
+  caption: Evaluation of crystal quality and electrical transport properties reveals quantum Hall effect at low magnetic field for Bi2−xSbxTe3−ySey topological insulator
+doi:10.1021/ACS.INORGCHEM.8B02279:
+  images:
+  - images/publications/31/figure-1.png
+  - images/publications/31/figure-2.png
+  caption: A large number of novel quaternary intermetallic phases exhibit low thermal conductivity
+doi:10.1002/ZAAC.201800351:
+  images:
+  - images/publications/30/figure-1.jpeg
+  - images/publications/30/figure-2.jpeg
+  caption: Synthesis and properties of a novel double perovskite material
+doi:10.1021/ACSNANO.8B04726:
+  images:
+  - images/publications/29/figure-1.png
+  caption: Design of Experiments followed by machine learning modeling helps to significantly improve the efficiency of organic photovoltaic materials made in the lab
+doi:10.1021/ACS.CGD.8B00958:
+  images:
+  - images/publications/28/figure-1.png
+  caption: Structural evolution study of the complex ternary intermetallics reveals distortions in the building blocks resulting into novel structures
+doi:10.1021/ACS.ACCOUNTS.7B00490:
+  images:
+  - images/publications/27/figure-1.png
+  caption: This review talks about how discovery of intermetallic compounds changed from traditional to machine-learning-guided approaches
+doi:10.1039/C9TA06431A:
+  images:
+  - images/publications/26/figure-1.png
+  caption: Mo0.9W1.1BC and ReWC0.8 are compressed nonhydrostatically to explore anisotropic deformation behavior and better comprehend hard materials
+doi:10.1021/ACS.CHEMMATER.9B02596:
+  images:
+  - images/publications/25/figure-1.png
+  - images/publications/25/figure-2.png
+  caption: Atomic substitutions to balance structural material performance with taking into consideration sustainability and economic factors
+doi:10.26434/chemrxiv.7580021.v1:
+  images:
+  - images/publications/24/figure-1.png
+  - images/publications/24/figure-2.png
+  caption: Automated single crystal diffraction data refinement approach was tested on two novel intermetallic structures.  The refinement routine take into account site deficiency and atomic mixing and helps to screen all other possible structural models
+doi:10.1038/S41467-018-06625-Z:
+  images:
+  - images/publications/23/figure-1.png
+  - images/publications/23/figure-2.png
+  caption: Debye temperature prediction with machine learning model helps to direct the search for next generation of rare-earth substituted inorganic phosphors.  One borate compound was made to validate the predictions experimentally.
+doi:10.1021/ACS.INORGCHEM.8B01356:
+  images:
+  - images/publications/22/figure-1.png
+  caption: Complex polyanionic bonding in four novel REAu1.5Sn0.5 phases
+doi:10.1021/JACS.8B02717:
+  images:
+  - images/publications/21/figure-1.png
+  - images/publications/21/figure-2.png
+  - images/publications/21/figure-3.png
+  caption: Machine learning model predicts bulk and shear moduli, leading us towards two new ultraincompressible and superhard material, which were made in the lab as an experimental validation
+doi:10.1021/ACS.INORGCHEM.8B01122:
+  images:
+  - images/publications/20/figure-1.png
+  - images/publications/20/figure-2.png
+  caption: Careful structural study of the Hf–In system reveals the formation of a different crystal structure on the surface of the sample, then in the bulk.  Interestingly, the novel HfIn intermetallic phase produces H2 gas on the contact with water.
+doi:10.1021/JACS.7B08460:
+  images:
+  - images/publications/19/figure-1.png
+  - images/publications/19/figure-2.png
+  caption: Prediction probability statistics often are used to evaluate the quality of the model.  We propose an important alternative meaning of the prediction probability in the context of experimental work – ambiguous predictions can point us towards co-existing phases.  The latter was demonstrated with experiments.
+doi:10.1021/ACS.CHEMMATER.6B02724:
+  images:
+  - images/publications/18/figure-1.png
+  - images/publications/18/figure-2.png
+  caption: Machine learning model based on decision trees was trained to predict the existence of 12 novel Heusler compounds, which were later made in the lab.  Structural ambiguity between Heuslers, non-Heuslers, and inverse Heuslers was resolved.
+doi:10.1021/ACS.CHEMMATER.6B02905:
+  images:
+  - images/publications/17/figure-1.png
+  - images/publications/17/figure-2.png
+  caption: It was believed that all binary equiatomic phases (AB) were already found.  With the help of machine learning tools and careful feature selection, we predict and make in the lab a novel RhCd intermetallic.  This is the first experimentally validated machine learning success in crystallography.
+doi:10.1021/ACS.INORGCHEM.6B00826:
+  images:
+  - images/publications/16/figure-1.png
+  - images/publications/16/figure-2.png
+  caption: Seemingly identical intermetallics exhibit structural complexity which plays an important role in low thermal conductivity of these thermoelectric materials
+doi:10.1063/1.4952607:
+  images:
+  - images/publications/15/figure-1.jpeg
+  - images/publications/15/figure-2.jpeg
+  - images/publications/15/figure-3.jpeg
+  caption: Recommendation engine proposes chemistries contradicting chemical intuition, leading us towards novel material classes Predicted properties were validated experimentally, revealing unusual thermal conductivity trend for the novel thermoelectric material
+doi:10.1016/J.JSSC.2015.12.010:
+  images:
+  - images/publications/14/figure-1.jpeg
+  caption: Ternary Ta–Cr–P phase diagram with binary compounds revealing homogeneity ranges by Ta/Cr and Cr/Ta substitutions
+doi:10.1016/J.SCRIPTAMAT.2015.04.026:
+  images:
+  - images/publications/13/figure-1.jpeg
+  caption: demonstration of the data mining approach is set forth in a ternary intermetallic system, where we report new materials
+doi:10.1021/IC502955H:
+  images:
+  - images/publications/12/figure-1.png
+  caption: Novel quaternary germanides rationalized with slab cuts
+doi:10.1016/J.JALLCOM.2015.01.253:
+  images:
+  - images/publications/11/figure-1.png
+  caption: Complex phase diagram (Hf–Ti–P) study with wide rage of solid solutions
+doi:10.1016/J.JALLCOM.2014.10.170:
+  images:
+  - images/publications/10/figure-1.png
+  caption: Quaternary (Ce–Mn–In–Ge) phase diagram study, which includes four corresponding phase diagram
+doi:10.1016/j.jssc.2013.11.00:
+  images:
+  - images/publications/9/figure-1.png
+  caption: Novel chalcogenides and their structure
+doi:10.1016/J.JALLCOM.2014.03.004:
+  images:
+  - images/publications/8/figure-1.png
+  caption: Studies with a focus on how oxygen inclusion in Nd4Mn2Ge5O0.6 changes the structure.
+doi:10.2478/S11532-013-0282-8:
+  images:
+  - images/publications/7/figure-1.emf
+  caption: The phase diagram (Ti–Fe–P) study with a focus on the M2P cross section and the structure changes there
+doi:10.1016/J.JSSC.2013.07.025:
+  images:
+  - images/publications/6/figure-1.png
+  caption: A novel RE2+xMnGe2+y phase reported, featuring local ordering arrangements through split positions
+doi:10.1021/IC401171V:
+  images:
+  - images/publications/5/figure-1.png
+  caption: Novel RE4M2InGe4 phases were discovered and the structure formation was explained with the slab shift in RE2InGe2 phases, when the transition metal M introduced
+doi:10.1016/J.JSSC.2013.03.050:
+  images:
+  - images/publications/4/figure-1.png
+  - images/publications/4/figure-2.png
+  caption: Approaching structure systematization through slabs to rationalize novel RE3M2Ge3 and RE2MGe2 structures. Magnetic and transport properties of the novel phases were measured
+doi:10.1021/IC302243P:
+  images:
+  - images/publications/3/figure-1.png
+  caption: Besides the phase diagram (Mo–Fe–P) investigation, we experimentally studied the structure transformation (Mo1−xFex)3P (0.10 ≤ x ≤ 0.15), supported with DFT calculations
+doi:10.1016/J.JALLCOM.2012.08.016:
+  images:
+  - images/publications/2/figure-1.png
+  caption: The phase diagram (Zr–Ti–P) study with a focus on equiatomic phases and their structures

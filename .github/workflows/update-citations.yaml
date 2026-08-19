@@ -70,11 +70,12 @@ jobs:
       - name: Check if citations changed
         if: github.event.action != 'closed'
         id: changed
-        uses: dorny/paths-filter@v2
-        with:
-          filters: |
-            citations:
-              - '_data/citations.yaml'
+        run: |
+          if git diff --quiet -- _data/citations.yaml; then
+            echo "files_changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "files_changed=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Commit updated citations to branch
         if: |

@@ -151,8 +151,10 @@ for index, source in enumerate(sources):
             # otherwise, if from metasource (id retrieved from some third-party API), just warn
             else:
                 log(e, 3, "WARNING")
-                # discard source from citations
-                continue
+                # Keep the metadata supplied by the source API. This prevents a
+                # temporary third-party citation failure from removing a work.
+                if not get_safe(source, "title", ""):
+                    continue
 
     # preserve fields from input source, overriding existing fields
     citation.update(source)
